@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: "@PrivateVPNs|🇬🇧|121.74"
+  - name: "@PrivateVPNs|🇬🇧|77.4"
     server: 35.176.61.244
     port: 22222
     type: trojan
@@ -40,7 +40,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@PrivateVPNs|🇮🇪|104.12"
+  - name: "@PrivateVPNs|🇮🇪|75.14"
     server: 34.245.167.213
     port: 22222
     type: trojan
@@ -48,7 +48,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@PrivateVPNs|🇮🇪|101.37"
+  - name: "@PrivateVPNs|🇮🇪|73.28"
     server: 34.251.167.105
     port: 22222
     type: trojan
@@ -56,7 +56,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN|🇨🇦|74.12"
+  - name: "@DirectVPN|🇨🇦|19.74"
     server: 3.96.159.153
     port: 22222
     type: trojan
@@ -64,7 +64,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN|🇺🇸|52.7"
+  - name: "@DirectVPN|🇺🇸|14.22"
     server: 3.144.16.20
     port: 22222
     type: trojan
@@ -72,7 +72,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN|🇺🇸|56.18"
+  - name: "@DirectVPN|🇺🇸|84.97"
     server: 54.245.46.154
     port: 22222
     type: trojan
@@ -80,7 +80,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@oneclickvpnkeys|🇺🇸|33.45"
+  - name: "@oneclickvpnkeys|🇺🇸|60.72"
     server: 104.149.153.125
     port: 443
     type: trojan
@@ -88,7 +88,7 @@ proxies:
     skip-cert-verify: true
     sni: daxun.windowsupdatea.com
     udp: true
-  - name: "@oneclickvpnkeys|🇺🇸|41.86"
+  - name: "@oneclickvpnkeys|🇺🇸|84.3"
     server: 74.217.179.22
     port: 443
     type: trojan
@@ -96,7 +96,7 @@ proxies:
     skip-cert-verify: true
     sni: daxun.windowsupdatea.com
     udp: true
-  - name: "@vmess_vless_v2rayng|🇩🇪|130.63"
+  - name: "@vmess_vless_v2rayng|🇩🇪|90.04"
     server: 54.93.129.147
     port: 22222
     type: trojan
@@ -104,7 +104,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@vmess_vless_v2rayng|🇬🇧|114.02"
+  - name: "@vmess_vless_v2rayng|🇬🇧|77.35"
     server: 3.10.190.223
     port: 22222
     type: trojan
@@ -112,7 +112,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@ovpn2|🇺🇸|182.42"
+  - name: "@ovpn2|🇺🇸|210.94"
     server: us1.chuqiangtou.net
     port: 4003
     type: trojan
@@ -120,7 +120,7 @@ proxies:
     skip-cert-verify: true
     sni: ""
     udp: true
-  - name: "@ovpn2|🇺🇸|132.17"
+  - name: "@ovpn2|🇺🇸|139.46"
     server: us3.chuqiangtou.net
     port: 4003
     type: trojan
@@ -128,7 +128,7 @@ proxies:
     skip-cert-verify: true
     sni: ""
     udp: true
-  - name: "@vpn_tehran|🇪🇸|251.83"
+  - name: "@vpn_tehran|🇪🇸|257.36"
     server: free-v2ray-panel.devefun.ink
     port: 1935
     type: trojan
@@ -136,7 +136,7 @@ proxies:
     skip-cert-verify: true
     sni: ""
     udp: true
-  - name: "@vpn_tehran|🇺🇸|49.14"
+  - name: "@vpn_tehran|🇺🇸|66.56"
     server: 54.193.96.133
     port: 8898
     type: trojan
@@ -144,7 +144,7 @@ proxies:
     skip-cert-verify: true
     sni: awsus.cfcloud.cyou
     udp: true
-  - name: "@proxystore11|🇯🇵|557.23"
+  - name: "@proxystore11|🇯🇵|483.31"
     server: sphk.1234567890spcloud.com
     port: 443
     type: trojan
@@ -152,7 +152,7 @@ proxies:
     skip-cert-verify: true
     sni: ""
     udp: true
-  - name: "@yaney_01|🇺🇸|32.24"
+  - name: "@yaney_01|🇺🇸|66.1"
     server: 163.123.192.57
     port: 443
     type: trojan
@@ -164,22 +164,22 @@ proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - "@PrivateVPNs|🇬🇧|121.74"
-      - "@PrivateVPNs|🇮🇪|104.12"
-      - "@PrivateVPNs|🇮🇪|101.37"
-      - "@DirectVPN|🇨🇦|74.12"
-      - "@DirectVPN|🇺🇸|52.7"
-      - "@DirectVPN|🇺🇸|56.18"
-      - "@oneclickvpnkeys|🇺🇸|33.45"
-      - "@oneclickvpnkeys|🇺🇸|41.86"
-      - "@vmess_vless_v2rayng|🇩🇪|130.63"
-      - "@vmess_vless_v2rayng|🇬🇧|114.02"
-      - "@ovpn2|🇺🇸|182.42"
-      - "@ovpn2|🇺🇸|132.17"
-      - "@vpn_tehran|🇪🇸|251.83"
-      - "@vpn_tehran|🇺🇸|49.14"
-      - "@proxystore11|🇯🇵|557.23"
-      - "@yaney_01|🇺🇸|32.24"
+      - "@PrivateVPNs|🇬🇧|77.4"
+      - "@PrivateVPNs|🇮🇪|75.14"
+      - "@PrivateVPNs|🇮🇪|73.28"
+      - "@DirectVPN|🇨🇦|19.74"
+      - "@DirectVPN|🇺🇸|14.22"
+      - "@DirectVPN|🇺🇸|84.97"
+      - "@oneclickvpnkeys|🇺🇸|60.72"
+      - "@oneclickvpnkeys|🇺🇸|84.3"
+      - "@vmess_vless_v2rayng|🇩🇪|90.04"
+      - "@vmess_vless_v2rayng|🇬🇧|77.35"
+      - "@ovpn2|🇺🇸|210.94"
+      - "@ovpn2|🇺🇸|139.46"
+      - "@vpn_tehran|🇪🇸|257.36"
+      - "@vpn_tehran|🇺🇸|66.56"
+      - "@proxystore11|🇯🇵|483.31"
+      - "@yaney_01|🇺🇸|66.1"
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -190,64 +190,64 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@PrivateVPNs|🇬🇧|121.74"
-      - "@PrivateVPNs|🇮🇪|104.12"
-      - "@PrivateVPNs|🇮🇪|101.37"
-      - "@DirectVPN|🇨🇦|74.12"
-      - "@DirectVPN|🇺🇸|52.7"
-      - "@DirectVPN|🇺🇸|56.18"
-      - "@oneclickvpnkeys|🇺🇸|33.45"
-      - "@oneclickvpnkeys|🇺🇸|41.86"
-      - "@vmess_vless_v2rayng|🇩🇪|130.63"
-      - "@vmess_vless_v2rayng|🇬🇧|114.02"
-      - "@ovpn2|🇺🇸|182.42"
-      - "@ovpn2|🇺🇸|132.17"
-      - "@vpn_tehran|🇪🇸|251.83"
-      - "@vpn_tehran|🇺🇸|49.14"
-      - "@proxystore11|🇯🇵|557.23"
-      - "@yaney_01|🇺🇸|32.24"
+      - "@PrivateVPNs|🇬🇧|77.4"
+      - "@PrivateVPNs|🇮🇪|75.14"
+      - "@PrivateVPNs|🇮🇪|73.28"
+      - "@DirectVPN|🇨🇦|19.74"
+      - "@DirectVPN|🇺🇸|14.22"
+      - "@DirectVPN|🇺🇸|84.97"
+      - "@oneclickvpnkeys|🇺🇸|60.72"
+      - "@oneclickvpnkeys|🇺🇸|84.3"
+      - "@vmess_vless_v2rayng|🇩🇪|90.04"
+      - "@vmess_vless_v2rayng|🇬🇧|77.35"
+      - "@ovpn2|🇺🇸|210.94"
+      - "@ovpn2|🇺🇸|139.46"
+      - "@vpn_tehran|🇪🇸|257.36"
+      - "@vpn_tehran|🇺🇸|66.56"
+      - "@proxystore11|🇯🇵|483.31"
+      - "@yaney_01|🇺🇸|66.1"
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - "@PrivateVPNs|🇬🇧|121.74"
-      - "@PrivateVPNs|🇮🇪|104.12"
-      - "@PrivateVPNs|🇮🇪|101.37"
-      - "@DirectVPN|🇨🇦|74.12"
-      - "@DirectVPN|🇺🇸|52.7"
-      - "@DirectVPN|🇺🇸|56.18"
-      - "@oneclickvpnkeys|🇺🇸|33.45"
-      - "@oneclickvpnkeys|🇺🇸|41.86"
-      - "@vmess_vless_v2rayng|🇩🇪|130.63"
-      - "@vmess_vless_v2rayng|🇬🇧|114.02"
-      - "@ovpn2|🇺🇸|182.42"
-      - "@ovpn2|🇺🇸|132.17"
-      - "@vpn_tehran|🇪🇸|251.83"
-      - "@vpn_tehran|🇺🇸|49.14"
-      - "@proxystore11|🇯🇵|557.23"
-      - "@yaney_01|🇺🇸|32.24"
+      - "@PrivateVPNs|🇬🇧|77.4"
+      - "@PrivateVPNs|🇮🇪|75.14"
+      - "@PrivateVPNs|🇮🇪|73.28"
+      - "@DirectVPN|🇨🇦|19.74"
+      - "@DirectVPN|🇺🇸|14.22"
+      - "@DirectVPN|🇺🇸|84.97"
+      - "@oneclickvpnkeys|🇺🇸|60.72"
+      - "@oneclickvpnkeys|🇺🇸|84.3"
+      - "@vmess_vless_v2rayng|🇩🇪|90.04"
+      - "@vmess_vless_v2rayng|🇬🇧|77.35"
+      - "@ovpn2|🇺🇸|210.94"
+      - "@ovpn2|🇺🇸|139.46"
+      - "@vpn_tehran|🇪🇸|257.36"
+      - "@vpn_tehran|🇺🇸|66.56"
+      - "@proxystore11|🇯🇵|483.31"
+      - "@yaney_01|🇺🇸|66.1"
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@PrivateVPNs|🇬🇧|121.74"
-      - "@PrivateVPNs|🇮🇪|104.12"
-      - "@PrivateVPNs|🇮🇪|101.37"
-      - "@DirectVPN|🇨🇦|74.12"
-      - "@DirectVPN|🇺🇸|52.7"
-      - "@DirectVPN|🇺🇸|56.18"
-      - "@oneclickvpnkeys|🇺🇸|33.45"
-      - "@oneclickvpnkeys|🇺🇸|41.86"
-      - "@vmess_vless_v2rayng|🇩🇪|130.63"
-      - "@vmess_vless_v2rayng|🇬🇧|114.02"
-      - "@ovpn2|🇺🇸|182.42"
-      - "@ovpn2|🇺🇸|132.17"
-      - "@vpn_tehran|🇪🇸|251.83"
-      - "@vpn_tehran|🇺🇸|49.14"
-      - "@proxystore11|🇯🇵|557.23"
-      - "@yaney_01|🇺🇸|32.24"
+      - "@PrivateVPNs|🇬🇧|77.4"
+      - "@PrivateVPNs|🇮🇪|75.14"
+      - "@PrivateVPNs|🇮🇪|73.28"
+      - "@DirectVPN|🇨🇦|19.74"
+      - "@DirectVPN|🇺🇸|14.22"
+      - "@DirectVPN|🇺🇸|84.97"
+      - "@oneclickvpnkeys|🇺🇸|60.72"
+      - "@oneclickvpnkeys|🇺🇸|84.3"
+      - "@vmess_vless_v2rayng|🇩🇪|90.04"
+      - "@vmess_vless_v2rayng|🇬🇧|77.35"
+      - "@ovpn2|🇺🇸|210.94"
+      - "@ovpn2|🇺🇸|139.46"
+      - "@vpn_tehran|🇪🇸|257.36"
+      - "@vpn_tehran|🇺🇸|66.56"
+      - "@proxystore11|🇯🇵|483.31"
+      - "@yaney_01|🇺🇸|66.1"
 rules:
   - MATCH,MANUAL
