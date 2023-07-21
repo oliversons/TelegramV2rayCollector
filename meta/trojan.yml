@@ -32,23 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: "@PrivateVPNs | 🇬🇧 | 87.06"
-    server: 18.170.32.197
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    sni: trj.rollingnext.co.uk
-    udp: true
-  - name: "@PrivateVPNs | 🇬🇧 | 97.18"
-    server: 18.133.181.124
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    sni: trj.rollingnext.co.uk
-    udp: true
-  - name: "@PrivateVPNs | 🇮🇪 | 67.93"
+  - name: "@PrivateVPNs | 🇮🇪 | 143.86"
     server: 34.251.81.238
     port: 22222
     type: trojan
@@ -56,15 +40,15 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN | 🇺🇸 | 21.05"
-    server: 18.116.43.162
+  - name: "@PrivateVPNs | 🇸🇪 | 223.62"
+    server: 13.48.71.157
     port: 22222
     type: trojan
-    password: telegram-id-directvpn
+    password: telegram-id-privatevpns
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN | 🇺🇸 | 90.11"
+  - name: "@DirectVPN | 🇺🇸 | 19.77"
     server: 34.215.205.240
     port: 22222
     type: trojan
@@ -72,7 +56,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN | 🇺🇸 | 104.13"
+  - name: "@DirectVPN | 🇺🇸 | 35.5"
     server: 52.25.58.172
     port: 22222
     type: trojan
@@ -80,7 +64,15 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@oneclickvpnkeys | 🇺🇸 | 19.04"
+  - name: "@DirectVPN | 🇸🇪 | 237.8"
+    server: 13.51.108.31
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "@oneclickvpnkeys | 🇺🇸 | 76.36"
     server: 18.118.26.51
     port: 22222
     type: trojan
@@ -88,7 +80,15 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@ovpn2 | 🇺🇸 | 204.56"
+  - name: "@V2RayTz | 🇺🇸 | 78.24"
+    server: 18.116.43.162
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "@ovpn2 | 🇺🇸 | 115.77"
     server: us1.chuqiangtou.net
     port: 4003
     type: trojan
@@ -96,7 +96,7 @@ proxies:
     skip-cert-verify: true
     sni: ""
     udp: true
-  - name: "@ovpn2 | 🇺🇸 | 116.52"
+  - name: "@ovpn2 | 🇺🇸 | 69.99"
     server: us3.chuqiangtou.net
     port: 4003
     type: trojan
@@ -104,7 +104,7 @@ proxies:
     skip-cert-verify: true
     sni: ""
     udp: true
-  - name: "@yaney_01 | 🇺🇸 | 21.17"
+  - name: "@yaney_01 | 🇺🇸 | 39.26"
     server: 64.227.131.19
     port: 443
     type: trojan
@@ -112,7 +112,7 @@ proxies:
     skip-cert-verify: true
     sni: us02web.zoom.us
     udp: true
-  - name: "@yaney_01 | 🇺🇸 | 1.62"
+  - name: "@yaney_01 | 🇺🇸 | 5.48"
     server: 128.199.221.46
     port: 443
     type: trojan
@@ -120,7 +120,7 @@ proxies:
     skip-cert-verify: true
     sni: us02web.zoom.us
     udp: true
-  - name: "@yaney_01 | 🇺🇸 | 1.99"
+  - name: "@yaney_01 | 🇺🇸 | 5.43"
     server: 147.182.216.10
     port: 443
     type: trojan
@@ -132,18 +132,18 @@ proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - "@PrivateVPNs | 🇬🇧 | 87.06"
-      - "@PrivateVPNs | 🇬🇧 | 97.18"
-      - "@PrivateVPNs | 🇮🇪 | 67.93"
-      - "@DirectVPN | 🇺🇸 | 21.05"
-      - "@DirectVPN | 🇺🇸 | 90.11"
-      - "@DirectVPN | 🇺🇸 | 104.13"
-      - "@oneclickvpnkeys | 🇺🇸 | 19.04"
-      - "@ovpn2 | 🇺🇸 | 204.56"
-      - "@ovpn2 | 🇺🇸 | 116.52"
-      - "@yaney_01 | 🇺🇸 | 21.17"
-      - "@yaney_01 | 🇺🇸 | 1.62"
-      - "@yaney_01 | 🇺🇸 | 1.99"
+      - "@PrivateVPNs | 🇮🇪 | 143.86"
+      - "@PrivateVPNs | 🇸🇪 | 223.62"
+      - "@DirectVPN | 🇺🇸 | 19.77"
+      - "@DirectVPN | 🇺🇸 | 35.5"
+      - "@DirectVPN | 🇸🇪 | 237.8"
+      - "@oneclickvpnkeys | 🇺🇸 | 76.36"
+      - "@V2RayTz | 🇺🇸 | 78.24"
+      - "@ovpn2 | 🇺🇸 | 115.77"
+      - "@ovpn2 | 🇺🇸 | 69.99"
+      - "@yaney_01 | 🇺🇸 | 39.26"
+      - "@yaney_01 | 🇺🇸 | 5.48"
+      - "@yaney_01 | 🇺🇸 | 5.43"
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -154,52 +154,52 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@PrivateVPNs | 🇬🇧 | 87.06"
-      - "@PrivateVPNs | 🇬🇧 | 97.18"
-      - "@PrivateVPNs | 🇮🇪 | 67.93"
-      - "@DirectVPN | 🇺🇸 | 21.05"
-      - "@DirectVPN | 🇺🇸 | 90.11"
-      - "@DirectVPN | 🇺🇸 | 104.13"
-      - "@oneclickvpnkeys | 🇺🇸 | 19.04"
-      - "@ovpn2 | 🇺🇸 | 204.56"
-      - "@ovpn2 | 🇺🇸 | 116.52"
-      - "@yaney_01 | 🇺🇸 | 21.17"
-      - "@yaney_01 | 🇺🇸 | 1.62"
-      - "@yaney_01 | 🇺🇸 | 1.99"
+      - "@PrivateVPNs | 🇮🇪 | 143.86"
+      - "@PrivateVPNs | 🇸🇪 | 223.62"
+      - "@DirectVPN | 🇺🇸 | 19.77"
+      - "@DirectVPN | 🇺🇸 | 35.5"
+      - "@DirectVPN | 🇸🇪 | 237.8"
+      - "@oneclickvpnkeys | 🇺🇸 | 76.36"
+      - "@V2RayTz | 🇺🇸 | 78.24"
+      - "@ovpn2 | 🇺🇸 | 115.77"
+      - "@ovpn2 | 🇺🇸 | 69.99"
+      - "@yaney_01 | 🇺🇸 | 39.26"
+      - "@yaney_01 | 🇺🇸 | 5.48"
+      - "@yaney_01 | 🇺🇸 | 5.43"
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - "@PrivateVPNs | 🇬🇧 | 87.06"
-      - "@PrivateVPNs | 🇬🇧 | 97.18"
-      - "@PrivateVPNs | 🇮🇪 | 67.93"
-      - "@DirectVPN | 🇺🇸 | 21.05"
-      - "@DirectVPN | 🇺🇸 | 90.11"
-      - "@DirectVPN | 🇺🇸 | 104.13"
-      - "@oneclickvpnkeys | 🇺🇸 | 19.04"
-      - "@ovpn2 | 🇺🇸 | 204.56"
-      - "@ovpn2 | 🇺🇸 | 116.52"
-      - "@yaney_01 | 🇺🇸 | 21.17"
-      - "@yaney_01 | 🇺🇸 | 1.62"
-      - "@yaney_01 | 🇺🇸 | 1.99"
+      - "@PrivateVPNs | 🇮🇪 | 143.86"
+      - "@PrivateVPNs | 🇸🇪 | 223.62"
+      - "@DirectVPN | 🇺🇸 | 19.77"
+      - "@DirectVPN | 🇺🇸 | 35.5"
+      - "@DirectVPN | 🇸🇪 | 237.8"
+      - "@oneclickvpnkeys | 🇺🇸 | 76.36"
+      - "@V2RayTz | 🇺🇸 | 78.24"
+      - "@ovpn2 | 🇺🇸 | 115.77"
+      - "@ovpn2 | 🇺🇸 | 69.99"
+      - "@yaney_01 | 🇺🇸 | 39.26"
+      - "@yaney_01 | 🇺🇸 | 5.48"
+      - "@yaney_01 | 🇺🇸 | 5.43"
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@PrivateVPNs | 🇬🇧 | 87.06"
-      - "@PrivateVPNs | 🇬🇧 | 97.18"
-      - "@PrivateVPNs | 🇮🇪 | 67.93"
-      - "@DirectVPN | 🇺🇸 | 21.05"
-      - "@DirectVPN | 🇺🇸 | 90.11"
-      - "@DirectVPN | 🇺🇸 | 104.13"
-      - "@oneclickvpnkeys | 🇺🇸 | 19.04"
-      - "@ovpn2 | 🇺🇸 | 204.56"
-      - "@ovpn2 | 🇺🇸 | 116.52"
-      - "@yaney_01 | 🇺🇸 | 21.17"
-      - "@yaney_01 | 🇺🇸 | 1.62"
-      - "@yaney_01 | 🇺🇸 | 1.99"
+      - "@PrivateVPNs | 🇮🇪 | 143.86"
+      - "@PrivateVPNs | 🇸🇪 | 223.62"
+      - "@DirectVPN | 🇺🇸 | 19.77"
+      - "@DirectVPN | 🇺🇸 | 35.5"
+      - "@DirectVPN | 🇸🇪 | 237.8"
+      - "@oneclickvpnkeys | 🇺🇸 | 76.36"
+      - "@V2RayTz | 🇺🇸 | 78.24"
+      - "@ovpn2 | 🇺🇸 | 115.77"
+      - "@ovpn2 | 🇺🇸 | 69.99"
+      - "@yaney_01 | 🇺🇸 | 39.26"
+      - "@yaney_01 | 🇺🇸 | 5.48"
+      - "@yaney_01 | 🇺🇸 | 5.43"
 rules:
   - MATCH,MANUAL
