@@ -32,23 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: "@PrivateVPNs | SE🇸🇪 | 16.16.93.47:22222 | 148.79ms | 0️⃣1️⃣"
-    server: 16.16.93.47
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    sni: trj.rollingnext.co.uk
-    udp: true
-  - name: "@PrivateVPNs | SE🇸🇪 | 16.171.183.183:22222 | 164.4ms | 0️⃣2️⃣"
-    server: 16.171.183.183
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    sni: trj.rollingnext.co.uk
-    udp: true
-  - name: "@PrivateVPNs | DE🇩🇪 | 3.77.223.132:22222 | 123.39ms | 0️⃣3️⃣"
+  - name: "@PrivateVPNs | DE🇩🇪 | 3.77.223.132:22222 | 93.9ms | 0️⃣1️⃣"
     server: 3.77.223.132
     port: 22222
     type: trojan
@@ -56,23 +40,23 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN | SE🇸🇪 | 13.48.20.173:22222 | 165.51ms | 0️⃣1️⃣"
-    server: 13.48.20.173
+  - name: "@PrivateVPNs | DE🇩🇪 | 3.76.57.221:22222 | 132.23ms | 0️⃣2️⃣"
+    server: 3.76.57.221
     port: 22222
     type: trojan
-    password: telegram-id-directvpn
+    password: telegram-id-privatevpns
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN | FR🇫🇷 | 15.237.152.115:22222 | 110.81ms | 0️⃣2️⃣"
-    server: 15.237.152.115
+  - name: "@PrivateVPNs | FR🇫🇷 | 13.39.208.31:22222 | 113.78ms | 0️⃣3️⃣"
+    server: 13.39.208.31
     port: 22222
     type: trojan
-    password: telegram-id-directvpn
+    password: telegram-id-privatevpns
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN | FR🇫🇷 | 13.39.43.73:22222 | 116.81ms | 0️⃣3️⃣"
+  - name: "@DirectVPN | FR🇫🇷 | 13.39.43.73:22222 | 131.57ms | 0️⃣1️⃣"
     server: 13.39.43.73
     port: 22222
     type: trojan
@@ -80,7 +64,23 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@oneclickvpnkeys | DE🇩🇪 | 18.158.162.186:22222 | 178.55ms | 0️⃣1️⃣"
+  - name: "@DirectVPN | GB🇬🇧 | 52.56.203.153:22222 | 82.33ms | 0️⃣2️⃣"
+    server: 52.56.203.153
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "@DirectVPN | GB🇬🇧 | 18.133.151.133:22222 | 81.73ms | 0️⃣3️⃣"
+    server: 18.133.151.133
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "@oneclickvpnkeys | DE🇩🇪 | 18.158.162.186:22222 | 129.16ms | 0️⃣1️⃣"
     server: 18.158.162.186
     port: 22222
     type: trojan
@@ -88,7 +88,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@oneclickvpnkeys | SE🇸🇪 | 16.16.93.47:22222 | 159.36ms | 0️⃣2️⃣"
+  - name: "@oneclickvpnkeys | SE🇸🇪 | 16.16.93.47:22222 | 109.65ms | 0️⃣2️⃣"
     server: 16.16.93.47
     port: 22222
     type: trojan
@@ -96,7 +96,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@oneclickvpnkeys | SE🇸🇪 | 16.171.184.91:22222 | 180.11ms | 0️⃣3️⃣"
+  - name: "@oneclickvpnkeys | SE🇸🇪 | 16.171.184.91:22222 | 108.87ms | 0️⃣3️⃣"
     server: 16.171.184.91
     port: 22222
     type: trojan
@@ -104,15 +104,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@V2RayTz | DE🇩🇪 | 52.59.99.113:22222 | 160.82ms | 0️⃣1️⃣"
-    server: 52.59.99.113
-    port: 22222
-    type: trojan
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    sni: trj.rollingnext.co.uk
-    udp: true
-  - name: "@ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 121.57ms | 0️⃣1️⃣"
+  - name: "@ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 199.84ms | 0️⃣1️⃣"
     server: us1.chuqiangtou.net
     port: 4003
     type: trojan
@@ -120,7 +112,7 @@ proxies:
     skip-cert-verify: true
     sni: ""
     udp: true
-  - name: "@ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 121.95ms | 0️⃣2️⃣"
+  - name: "@ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 156.9ms | 0️⃣3️⃣"
     server: us3.chuqiangtou.net
     port: 4003
     type: trojan
@@ -128,7 +120,7 @@ proxies:
     skip-cert-verify: true
     sni: ""
     udp: true
-  - name: "@proxystore11 | FR🇫🇷 | 51.91.11.29:80 | 123.4ms | 0️⃣1️⃣"
+  - name: "@proxystore11 | FR🇫🇷 | 51.91.11.29:80 | 90.88ms | 0️⃣1️⃣"
     server: 51.91.11.29
     port: 80
     type: trojan
@@ -136,7 +128,7 @@ proxies:
     skip-cert-verify: true
     sni: speedtest.net
     udp: true
-  - name: "@yaney_01 | US🇺🇸 | 163.123.192.155:443 | 32.41ms | 0️⃣1️⃣"
+  - name: "@yaney_01 | US🇺🇸 | 163.123.192.155:443 | 65.52ms | 0️⃣1️⃣"
     server: 163.123.192.155
     port: 443
     type: trojan
@@ -148,20 +140,19 @@ proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - "@PrivateVPNs | SE🇸🇪 | 16.16.93.47:22222 | 148.79ms | 0️⃣1️⃣"
-      - "@PrivateVPNs | SE🇸🇪 | 16.171.183.183:22222 | 164.4ms | 0️⃣2️⃣"
-      - "@PrivateVPNs | DE🇩🇪 | 3.77.223.132:22222 | 123.39ms | 0️⃣3️⃣"
-      - "@DirectVPN | SE🇸🇪 | 13.48.20.173:22222 | 165.51ms | 0️⃣1️⃣"
-      - "@DirectVPN | FR🇫🇷 | 15.237.152.115:22222 | 110.81ms | 0️⃣2️⃣"
-      - "@DirectVPN | FR🇫🇷 | 13.39.43.73:22222 | 116.81ms | 0️⃣3️⃣"
-      - "@oneclickvpnkeys | DE🇩🇪 | 18.158.162.186:22222 | 178.55ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | SE🇸🇪 | 16.16.93.47:22222 | 159.36ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | SE🇸🇪 | 16.171.184.91:22222 | 180.11ms | 0️⃣3️⃣"
-      - "@V2RayTz | DE🇩🇪 | 52.59.99.113:22222 | 160.82ms | 0️⃣1️⃣"
-      - "@ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 121.57ms | 0️⃣1️⃣"
-      - "@ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 121.95ms | 0️⃣2️⃣"
-      - "@proxystore11 | FR🇫🇷 | 51.91.11.29:80 | 123.4ms | 0️⃣1️⃣"
-      - "@yaney_01 | US🇺🇸 | 163.123.192.155:443 | 32.41ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | DE🇩🇪 | 3.77.223.132:22222 | 93.9ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | DE🇩🇪 | 3.76.57.221:22222 | 132.23ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | FR🇫🇷 | 13.39.208.31:22222 | 113.78ms | 0️⃣3️⃣"
+      - "@DirectVPN | FR🇫🇷 | 13.39.43.73:22222 | 131.57ms | 0️⃣1️⃣"
+      - "@DirectVPN | GB🇬🇧 | 52.56.203.153:22222 | 82.33ms | 0️⃣2️⃣"
+      - "@DirectVPN | GB🇬🇧 | 18.133.151.133:22222 | 81.73ms | 0️⃣3️⃣"
+      - "@oneclickvpnkeys | DE🇩🇪 | 18.158.162.186:22222 | 129.16ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | SE🇸🇪 | 16.16.93.47:22222 | 109.65ms | 0️⃣2️⃣"
+      - "@oneclickvpnkeys | SE🇸🇪 | 16.171.184.91:22222 | 108.87ms | 0️⃣3️⃣"
+      - "@ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 199.84ms | 0️⃣1️⃣"
+      - "@ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 156.9ms | 0️⃣3️⃣"
+      - "@proxystore11 | FR🇫🇷 | 51.91.11.29:80 | 90.88ms | 0️⃣1️⃣"
+      - "@yaney_01 | US🇺🇸 | 163.123.192.155:443 | 65.52ms | 0️⃣1️⃣"
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -172,58 +163,55 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@PrivateVPNs | SE🇸🇪 | 16.16.93.47:22222 | 148.79ms | 0️⃣1️⃣"
-      - "@PrivateVPNs | SE🇸🇪 | 16.171.183.183:22222 | 164.4ms | 0️⃣2️⃣"
-      - "@PrivateVPNs | DE🇩🇪 | 3.77.223.132:22222 | 123.39ms | 0️⃣3️⃣"
-      - "@DirectVPN | SE🇸🇪 | 13.48.20.173:22222 | 165.51ms | 0️⃣1️⃣"
-      - "@DirectVPN | FR🇫🇷 | 15.237.152.115:22222 | 110.81ms | 0️⃣2️⃣"
-      - "@DirectVPN | FR🇫🇷 | 13.39.43.73:22222 | 116.81ms | 0️⃣3️⃣"
-      - "@oneclickvpnkeys | DE🇩🇪 | 18.158.162.186:22222 | 178.55ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | SE🇸🇪 | 16.16.93.47:22222 | 159.36ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | SE🇸🇪 | 16.171.184.91:22222 | 180.11ms | 0️⃣3️⃣"
-      - "@V2RayTz | DE🇩🇪 | 52.59.99.113:22222 | 160.82ms | 0️⃣1️⃣"
-      - "@ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 121.57ms | 0️⃣1️⃣"
-      - "@ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 121.95ms | 0️⃣2️⃣"
-      - "@proxystore11 | FR🇫🇷 | 51.91.11.29:80 | 123.4ms | 0️⃣1️⃣"
-      - "@yaney_01 | US🇺🇸 | 163.123.192.155:443 | 32.41ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | DE🇩🇪 | 3.77.223.132:22222 | 93.9ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | DE🇩🇪 | 3.76.57.221:22222 | 132.23ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | FR🇫🇷 | 13.39.208.31:22222 | 113.78ms | 0️⃣3️⃣"
+      - "@DirectVPN | FR🇫🇷 | 13.39.43.73:22222 | 131.57ms | 0️⃣1️⃣"
+      - "@DirectVPN | GB🇬🇧 | 52.56.203.153:22222 | 82.33ms | 0️⃣2️⃣"
+      - "@DirectVPN | GB🇬🇧 | 18.133.151.133:22222 | 81.73ms | 0️⃣3️⃣"
+      - "@oneclickvpnkeys | DE🇩🇪 | 18.158.162.186:22222 | 129.16ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | SE🇸🇪 | 16.16.93.47:22222 | 109.65ms | 0️⃣2️⃣"
+      - "@oneclickvpnkeys | SE🇸🇪 | 16.171.184.91:22222 | 108.87ms | 0️⃣3️⃣"
+      - "@ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 199.84ms | 0️⃣1️⃣"
+      - "@ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 156.9ms | 0️⃣3️⃣"
+      - "@proxystore11 | FR🇫🇷 | 51.91.11.29:80 | 90.88ms | 0️⃣1️⃣"
+      - "@yaney_01 | US🇺🇸 | 163.123.192.155:443 | 65.52ms | 0️⃣1️⃣"
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - "@PrivateVPNs | SE🇸🇪 | 16.16.93.47:22222 | 148.79ms | 0️⃣1️⃣"
-      - "@PrivateVPNs | SE🇸🇪 | 16.171.183.183:22222 | 164.4ms | 0️⃣2️⃣"
-      - "@PrivateVPNs | DE🇩🇪 | 3.77.223.132:22222 | 123.39ms | 0️⃣3️⃣"
-      - "@DirectVPN | SE🇸🇪 | 13.48.20.173:22222 | 165.51ms | 0️⃣1️⃣"
-      - "@DirectVPN | FR🇫🇷 | 15.237.152.115:22222 | 110.81ms | 0️⃣2️⃣"
-      - "@DirectVPN | FR🇫🇷 | 13.39.43.73:22222 | 116.81ms | 0️⃣3️⃣"
-      - "@oneclickvpnkeys | DE🇩🇪 | 18.158.162.186:22222 | 178.55ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | SE🇸🇪 | 16.16.93.47:22222 | 159.36ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | SE🇸🇪 | 16.171.184.91:22222 | 180.11ms | 0️⃣3️⃣"
-      - "@V2RayTz | DE🇩🇪 | 52.59.99.113:22222 | 160.82ms | 0️⃣1️⃣"
-      - "@ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 121.57ms | 0️⃣1️⃣"
-      - "@ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 121.95ms | 0️⃣2️⃣"
-      - "@proxystore11 | FR🇫🇷 | 51.91.11.29:80 | 123.4ms | 0️⃣1️⃣"
-      - "@yaney_01 | US🇺🇸 | 163.123.192.155:443 | 32.41ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | DE🇩🇪 | 3.77.223.132:22222 | 93.9ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | DE🇩🇪 | 3.76.57.221:22222 | 132.23ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | FR🇫🇷 | 13.39.208.31:22222 | 113.78ms | 0️⃣3️⃣"
+      - "@DirectVPN | FR🇫🇷 | 13.39.43.73:22222 | 131.57ms | 0️⃣1️⃣"
+      - "@DirectVPN | GB🇬🇧 | 52.56.203.153:22222 | 82.33ms | 0️⃣2️⃣"
+      - "@DirectVPN | GB🇬🇧 | 18.133.151.133:22222 | 81.73ms | 0️⃣3️⃣"
+      - "@oneclickvpnkeys | DE🇩🇪 | 18.158.162.186:22222 | 129.16ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | SE🇸🇪 | 16.16.93.47:22222 | 109.65ms | 0️⃣2️⃣"
+      - "@oneclickvpnkeys | SE🇸🇪 | 16.171.184.91:22222 | 108.87ms | 0️⃣3️⃣"
+      - "@ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 199.84ms | 0️⃣1️⃣"
+      - "@ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 156.9ms | 0️⃣3️⃣"
+      - "@proxystore11 | FR🇫🇷 | 51.91.11.29:80 | 90.88ms | 0️⃣1️⃣"
+      - "@yaney_01 | US🇺🇸 | 163.123.192.155:443 | 65.52ms | 0️⃣1️⃣"
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@PrivateVPNs | SE🇸🇪 | 16.16.93.47:22222 | 148.79ms | 0️⃣1️⃣"
-      - "@PrivateVPNs | SE🇸🇪 | 16.171.183.183:22222 | 164.4ms | 0️⃣2️⃣"
-      - "@PrivateVPNs | DE🇩🇪 | 3.77.223.132:22222 | 123.39ms | 0️⃣3️⃣"
-      - "@DirectVPN | SE🇸🇪 | 13.48.20.173:22222 | 165.51ms | 0️⃣1️⃣"
-      - "@DirectVPN | FR🇫🇷 | 15.237.152.115:22222 | 110.81ms | 0️⃣2️⃣"
-      - "@DirectVPN | FR🇫🇷 | 13.39.43.73:22222 | 116.81ms | 0️⃣3️⃣"
-      - "@oneclickvpnkeys | DE🇩🇪 | 18.158.162.186:22222 | 178.55ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | SE🇸🇪 | 16.16.93.47:22222 | 159.36ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | SE🇸🇪 | 16.171.184.91:22222 | 180.11ms | 0️⃣3️⃣"
-      - "@V2RayTz | DE🇩🇪 | 52.59.99.113:22222 | 160.82ms | 0️⃣1️⃣"
-      - "@ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 121.57ms | 0️⃣1️⃣"
-      - "@ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 121.95ms | 0️⃣2️⃣"
-      - "@proxystore11 | FR🇫🇷 | 51.91.11.29:80 | 123.4ms | 0️⃣1️⃣"
-      - "@yaney_01 | US🇺🇸 | 163.123.192.155:443 | 32.41ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | DE🇩🇪 | 3.77.223.132:22222 | 93.9ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | DE🇩🇪 | 3.76.57.221:22222 | 132.23ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | FR🇫🇷 | 13.39.208.31:22222 | 113.78ms | 0️⃣3️⃣"
+      - "@DirectVPN | FR🇫🇷 | 13.39.43.73:22222 | 131.57ms | 0️⃣1️⃣"
+      - "@DirectVPN | GB🇬🇧 | 52.56.203.153:22222 | 82.33ms | 0️⃣2️⃣"
+      - "@DirectVPN | GB🇬🇧 | 18.133.151.133:22222 | 81.73ms | 0️⃣3️⃣"
+      - "@oneclickvpnkeys | DE🇩🇪 | 18.158.162.186:22222 | 129.16ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | SE🇸🇪 | 16.16.93.47:22222 | 109.65ms | 0️⃣2️⃣"
+      - "@oneclickvpnkeys | SE🇸🇪 | 16.171.184.91:22222 | 108.87ms | 0️⃣3️⃣"
+      - "@ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 199.84ms | 0️⃣1️⃣"
+      - "@ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 156.9ms | 0️⃣3️⃣"
+      - "@proxystore11 | FR🇫🇷 | 51.91.11.29:80 | 90.88ms | 0️⃣1️⃣"
+      - "@yaney_01 | US🇺🇸 | 163.123.192.155:443 | 65.52ms | 0️⃣1️⃣"
 rules:
   - MATCH,MANUAL
