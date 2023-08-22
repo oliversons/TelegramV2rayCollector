@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: "@PrivateVPNs | FR🇫🇷 | 13.39.143.26:22222 | 123.54ms | 0️⃣1️⃣"
+  - name: "@PrivateVPNs | FR🇫🇷 | 13.39.143.26:22222 | 110.78ms | 0️⃣1️⃣"
     server: 13.39.143.26
     port: 22222
     type: trojan
@@ -40,7 +40,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@PrivateVPNs | GB🇬🇧 | 18.133.14.163:22222 | 181.06ms | 0️⃣2️⃣"
+  - name: "@PrivateVPNs | GB🇬🇧 | 18.133.14.163:22222 | 147.49ms | 0️⃣2️⃣"
     server: 18.133.14.163
     port: 22222
     type: trojan
@@ -48,7 +48,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@PrivateVPNs | GB🇬🇧 | 18.135.91.65:22222 | 114.45ms | 0️⃣3️⃣"
+  - name: "@PrivateVPNs | GB🇬🇧 | 18.135.91.65:22222 | 168.74ms | 0️⃣3️⃣"
     server: 18.135.91.65
     port: 22222
     type: trojan
@@ -56,7 +56,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN | US🇺🇸 | 3.223.109.240:22222 | 61.07ms | 0️⃣1️⃣"
+  - name: "@DirectVPN | US🇺🇸 | 3.223.109.240:22222 | 52.56ms | 0️⃣1️⃣"
     server: 3.223.109.240
     port: 22222
     type: trojan
@@ -64,7 +64,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN | GB🇬🇧 | 18.135.119.74:22222 | 148.83ms | 0️⃣2️⃣"
+  - name: "@DirectVPN | GB🇬🇧 | 18.135.119.74:22222 | 175.03ms | 0️⃣2️⃣"
     server: 18.135.119.74
     port: 22222
     type: trojan
@@ -72,7 +72,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@DirectVPN | IE🇮🇪 | 54.76.146.94:22222 | 97.02ms | 0️⃣3️⃣"
+  - name: "@DirectVPN | IE🇮🇪 | 54.76.146.94:22222 | 165.19ms | 0️⃣3️⃣"
     server: 54.76.146.94
     port: 22222
     type: trojan
@@ -80,7 +80,7 @@ proxies:
     skip-cert-verify: true
     sni: trj.rollingnext.co.uk
     udp: true
-  - name: "@oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 29.7ms | 0️⃣1️⃣"
+  - name: "@oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 32.8ms | 0️⃣1️⃣"
     server: 163.123.192.34
     port: 443
     type: trojan
@@ -88,7 +88,7 @@ proxies:
     skip-cert-verify: true
     sni: 16-163-218-240.nhost.00cdn.com
     udp: true
-  - name: "@oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 163.16ms | 0️⃣2️⃣"
+  - name: "@oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 152.08ms | 0️⃣2️⃣"
     server: ho1one.09vpn.com
     port: 2083
     type: trojan
@@ -96,7 +96,7 @@ proxies:
     skip-cert-verify: true
     sni: ""
     udp: true
-  - name: "@v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 37.39ms | 0️⃣1️⃣"
+  - name: "@v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 50.6ms | 0️⃣1️⃣"
     server: 51.81.82.15
     port: 443
     type: trojan
@@ -108,15 +108,15 @@ proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - "@PrivateVPNs | FR🇫🇷 | 13.39.143.26:22222 | 123.54ms | 0️⃣1️⃣"
-      - "@PrivateVPNs | GB🇬🇧 | 18.133.14.163:22222 | 181.06ms | 0️⃣2️⃣"
-      - "@PrivateVPNs | GB🇬🇧 | 18.135.91.65:22222 | 114.45ms | 0️⃣3️⃣"
-      - "@DirectVPN | US🇺🇸 | 3.223.109.240:22222 | 61.07ms | 0️⃣1️⃣"
-      - "@DirectVPN | GB🇬🇧 | 18.135.119.74:22222 | 148.83ms | 0️⃣2️⃣"
-      - "@DirectVPN | IE🇮🇪 | 54.76.146.94:22222 | 97.02ms | 0️⃣3️⃣"
-      - "@oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 29.7ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 163.16ms | 0️⃣2️⃣"
-      - "@v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 37.39ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | FR🇫🇷 | 13.39.143.26:22222 | 110.78ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | GB🇬🇧 | 18.133.14.163:22222 | 147.49ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | GB🇬🇧 | 18.135.91.65:22222 | 168.74ms | 0️⃣3️⃣"
+      - "@DirectVPN | US🇺🇸 | 3.223.109.240:22222 | 52.56ms | 0️⃣1️⃣"
+      - "@DirectVPN | GB🇬🇧 | 18.135.119.74:22222 | 175.03ms | 0️⃣2️⃣"
+      - "@DirectVPN | IE🇮🇪 | 54.76.146.94:22222 | 165.19ms | 0️⃣3️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 32.8ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 152.08ms | 0️⃣2️⃣"
+      - "@v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 50.6ms | 0️⃣1️⃣"
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -127,43 +127,43 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@PrivateVPNs | FR🇫🇷 | 13.39.143.26:22222 | 123.54ms | 0️⃣1️⃣"
-      - "@PrivateVPNs | GB🇬🇧 | 18.133.14.163:22222 | 181.06ms | 0️⃣2️⃣"
-      - "@PrivateVPNs | GB🇬🇧 | 18.135.91.65:22222 | 114.45ms | 0️⃣3️⃣"
-      - "@DirectVPN | US🇺🇸 | 3.223.109.240:22222 | 61.07ms | 0️⃣1️⃣"
-      - "@DirectVPN | GB🇬🇧 | 18.135.119.74:22222 | 148.83ms | 0️⃣2️⃣"
-      - "@DirectVPN | IE🇮🇪 | 54.76.146.94:22222 | 97.02ms | 0️⃣3️⃣"
-      - "@oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 29.7ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 163.16ms | 0️⃣2️⃣"
-      - "@v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 37.39ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | FR🇫🇷 | 13.39.143.26:22222 | 110.78ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | GB🇬🇧 | 18.133.14.163:22222 | 147.49ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | GB🇬🇧 | 18.135.91.65:22222 | 168.74ms | 0️⃣3️⃣"
+      - "@DirectVPN | US🇺🇸 | 3.223.109.240:22222 | 52.56ms | 0️⃣1️⃣"
+      - "@DirectVPN | GB🇬🇧 | 18.135.119.74:22222 | 175.03ms | 0️⃣2️⃣"
+      - "@DirectVPN | IE🇮🇪 | 54.76.146.94:22222 | 165.19ms | 0️⃣3️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 32.8ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 152.08ms | 0️⃣2️⃣"
+      - "@v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 50.6ms | 0️⃣1️⃣"
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - "@PrivateVPNs | FR🇫🇷 | 13.39.143.26:22222 | 123.54ms | 0️⃣1️⃣"
-      - "@PrivateVPNs | GB🇬🇧 | 18.133.14.163:22222 | 181.06ms | 0️⃣2️⃣"
-      - "@PrivateVPNs | GB🇬🇧 | 18.135.91.65:22222 | 114.45ms | 0️⃣3️⃣"
-      - "@DirectVPN | US🇺🇸 | 3.223.109.240:22222 | 61.07ms | 0️⃣1️⃣"
-      - "@DirectVPN | GB🇬🇧 | 18.135.119.74:22222 | 148.83ms | 0️⃣2️⃣"
-      - "@DirectVPN | IE🇮🇪 | 54.76.146.94:22222 | 97.02ms | 0️⃣3️⃣"
-      - "@oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 29.7ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 163.16ms | 0️⃣2️⃣"
-      - "@v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 37.39ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | FR🇫🇷 | 13.39.143.26:22222 | 110.78ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | GB🇬🇧 | 18.133.14.163:22222 | 147.49ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | GB🇬🇧 | 18.135.91.65:22222 | 168.74ms | 0️⃣3️⃣"
+      - "@DirectVPN | US🇺🇸 | 3.223.109.240:22222 | 52.56ms | 0️⃣1️⃣"
+      - "@DirectVPN | GB🇬🇧 | 18.135.119.74:22222 | 175.03ms | 0️⃣2️⃣"
+      - "@DirectVPN | IE🇮🇪 | 54.76.146.94:22222 | 165.19ms | 0️⃣3️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 32.8ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 152.08ms | 0️⃣2️⃣"
+      - "@v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 50.6ms | 0️⃣1️⃣"
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@PrivateVPNs | FR🇫🇷 | 13.39.143.26:22222 | 123.54ms | 0️⃣1️⃣"
-      - "@PrivateVPNs | GB🇬🇧 | 18.133.14.163:22222 | 181.06ms | 0️⃣2️⃣"
-      - "@PrivateVPNs | GB🇬🇧 | 18.135.91.65:22222 | 114.45ms | 0️⃣3️⃣"
-      - "@DirectVPN | US🇺🇸 | 3.223.109.240:22222 | 61.07ms | 0️⃣1️⃣"
-      - "@DirectVPN | GB🇬🇧 | 18.135.119.74:22222 | 148.83ms | 0️⃣2️⃣"
-      - "@DirectVPN | IE🇮🇪 | 54.76.146.94:22222 | 97.02ms | 0️⃣3️⃣"
-      - "@oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 29.7ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 163.16ms | 0️⃣2️⃣"
-      - "@v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 37.39ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | FR🇫🇷 | 13.39.143.26:22222 | 110.78ms | 0️⃣1️⃣"
+      - "@PrivateVPNs | GB🇬🇧 | 18.133.14.163:22222 | 147.49ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | GB🇬🇧 | 18.135.91.65:22222 | 168.74ms | 0️⃣3️⃣"
+      - "@DirectVPN | US🇺🇸 | 3.223.109.240:22222 | 52.56ms | 0️⃣1️⃣"
+      - "@DirectVPN | GB🇬🇧 | 18.135.119.74:22222 | 175.03ms | 0️⃣2️⃣"
+      - "@DirectVPN | IE🇮🇪 | 54.76.146.94:22222 | 165.19ms | 0️⃣3️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 32.8ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 152.08ms | 0️⃣2️⃣"
+      - "@v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 50.6ms | 0️⃣1️⃣"
 rules:
   - MATCH,MANUAL
