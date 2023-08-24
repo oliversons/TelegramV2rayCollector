@@ -32,37 +32,30 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: REALITY | @v2raycollectordonate | RELAY🚩 | discord.com:443 | 24.47ms | 0️⃣4️⃣
-    server: discord.com
+  - name: REALITY | @v2raycollectordonate | DE🇩🇪 | freetell.globalnetvpn.site:22745 | 313.07ms | 0️⃣4️⃣
+    server: freetell.globalnetvpn.site
+    port: 22745
+    type: vless
+    uuid: ddd66e3a-e788-4c91-b038-0a49c6775a2a
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: www.zula.ir
+    udp: true
+  - name: REALITY | @v2raycollectordonate | DE🇩🇪 | 192.46.233.209:443 | 157.54ms | 0️⃣5️⃣
+    server: 192.46.233.209
     port: 443
     type: vless
-    uuid: 43e00e4c-2316-4dc9-8262-cef31886dc56
+    uuid: ad777c50-4614-40b6-9af2-49fd1794c14b
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: wowlog.wordpass.workers.dev
-    network: ws
-    ws-opts:
-      path: /marly.toptechnonews.com/nimws
-      headers:
-        Host: wowlog.wordpass.workers.dev
+    servername: pinterest.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS
     udp: true
-  - name: REALITY | @v2raycollectordonate | RELAY🚩 | discord.com:443 | 21.36ms | 0️⃣5️⃣
-    server: discord.com
-    port: 443
-    type: vless
-    uuid: d402216a-0728-448d-bccd-3d3a8e8af2c8
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: wowlog.wordpass.workers.dev
-    network: ws
-    ws-opts:
-      path: /foal.aurorainiceland.com/nimws
-      headers:
-        Host: wowlog.wordpass.workers.dev
-    udp: true
-  - name: REALITY | @Helix_Servers | LV🇱🇻 | 85.159.228.56:443 | 147.42ms | 0️⃣1️⃣
+  - name: REALITY | @Helix_Servers | LV🇱🇻 | 85.159.228.56:443 | 185.88ms | 0️⃣1️⃣
     server: 85.159.228.56
     port: 443
     type: vless
@@ -75,7 +68,7 @@ proxies:
     grpc-opts:
       grpc-service-name: Telegram%3A%40Helix_Servers-Telegram%3A%40Helix_Servers-Telegram%3A%40Helix_Servers-Telegram%3A%40Helix_Servers-Telegram%3A%40Helix_Servers-Telegram%3A%40Helix_Servers-Telegram%3A%40Helix_Servers-Telegram%3A%40Helix_Servers
     udp: true
-  - name: REALITY | @Helix_Servers | AT🇦🇹 | 185.106.94.255:443 | 171.49ms | 0️⃣2️⃣
+  - name: REALITY | @Helix_Servers | AT🇦🇹 | 185.106.94.255:443 | 170.63ms | 0️⃣2️⃣
     server: 185.106.94.255
     port: 443
     type: vless
@@ -88,7 +81,7 @@ proxies:
     grpc-opts:
       grpc-service-name: Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS-Telegram%3A%40HELIX_SERVERS
     udp: true
-  - name: REALITY | @INIT1984 | CA🇨🇦 | 159.89.126.192:56668 | 42.51ms | 0️⃣1️⃣
+  - name: REALITY | @INIT1984 | CA🇨🇦 | 159.89.126.192:56668 | 65.75ms | 0️⃣1️⃣
     server: 159.89.126.192
     port: 56668
     type: vless
@@ -99,7 +92,7 @@ proxies:
     skip-cert-verify: true
     servername: apple.com
     udp: true
-  - name: REALITY | @shopingv2ray | PL🇵🇱 | 185.161.251.214:443 | 127.21ms | 0️⃣1️⃣
+  - name: REALITY | @shopingv2ray | PL🇵🇱 | 185.161.251.214:443 | 183.28ms | 0️⃣1️⃣
     server: 185.161.251.214
     port: 443
     type: vless
@@ -109,7 +102,7 @@ proxies:
     skip-cert-verify: true
     servername: www.cloudflare.com
     udp: true
-  - name: REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 176.59ms | 0️⃣1️⃣
+  - name: REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 179.92ms | 0️⃣1️⃣
     server: XsV2ray.xalixv2ray.space
     port: 443
     type: vless
@@ -122,7 +115,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40XsV2ray%2C%40XsV2ray"
     udp: true
-  - name: REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 171.89ms | 0️⃣2️⃣
+  - name: REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 177.53ms | 0️⃣2️⃣
     server: XsV2ray.xalixv2ray.space
     port: 443
     type: vless
@@ -135,7 +128,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40XsV2ray%2C%40XsV2ray"
     udp: true
-  - name: REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2052 | 194.1ms | 0️⃣1️⃣
+  - name: REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2052 | 190.41ms | 0️⃣1️⃣
     server: 77.91.84.45
     port: 2052
     type: vless
@@ -146,18 +139,7 @@ proxies:
     skip-cert-verify: true
     servername: atrsun.com
     udp: true
-  - name: REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2086 | 191.04ms | 0️⃣2️⃣
-    server: 77.91.84.45
-    port: 2086
-    type: vless
-    uuid: b6c43c17-dd37-4e38-8e12-23aee43074a9
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: faraso.org
-    udp: true
-  - name: REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2095 | 189.84ms | 0️⃣3️⃣
+  - name: REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2095 | 197.94ms | 0️⃣2️⃣
     server: 77.91.84.45
     port: 2095
     type: vless
@@ -168,7 +150,7 @@ proxies:
     skip-cert-verify: true
     servername: hamiseir.ir
     udp: true
-  - name: REALITY | @V2pedia | DE🇩🇪 | v2pedia.ddns.net:2087 | 141.04ms | 0️⃣1️⃣
+  - name: REALITY | @V2pedia | DE🇩🇪 | v2pedia.ddns.net:2087 | 189.09ms | 0️⃣1️⃣
     server: v2pedia.ddns.net
     port: 2087
     type: vless
@@ -181,7 +163,7 @@ proxies:
     grpc-opts:
       grpc-service-name: Telegram%3A
     udp: true
-  - name: REALITY | @V2pedia | DE🇩🇪 | telchann1.v2pedia.xyz:443 | 301.64ms | 0️⃣3️⃣
+  - name: REALITY | @V2pedia | DE🇩🇪 | telchann1.v2pedia.xyz:443 | 335.81ms | 0️⃣3️⃣
     server: telchann1.v2pedia.xyz
     port: 443
     type: vless
@@ -194,7 +176,7 @@ proxies:
     grpc-opts:
       grpc-service-name: Telegram%3A%40v2pedia%2CTelegram%3A%40v2pedia%2CTelegram%3A%40v2pedia%2CTelegram%3A%40v2pedia%2CTelegram%3A%40v2pedia%2CTelegram%3A%40v2pedia%2CTelegram%3A%40v2pedia%2CTelegram%3A%40v2pedia%2CTelegram%3A%40v2pedia%2CTelegram%3A%40v2pedia
     udp: true
-  - name: REALITY | @frev2ray | GE🇬🇪 | 77.91.70.77:2053 | 153.72ms | 0️⃣1️⃣
+  - name: REALITY | @frev2ray | GE🇬🇪 | 77.91.70.77:2053 | 180.02ms | 0️⃣1️⃣
     server: 77.91.70.77
     port: 2053
     type: vless
@@ -205,7 +187,7 @@ proxies:
     skip-cert-verify: true
     servername: canva.com
     udp: true
-  - name: REALITY | @frev2ray | DE🇩🇪 | 209.38.217.159:443 | 130.23ms | 0️⃣3️⃣
+  - name: REALITY | @frev2ray | DE🇩🇪 | 209.38.217.159:443 | 158.86ms | 0️⃣3️⃣
     server: 209.38.217.159
     port: 443
     type: vless
@@ -218,7 +200,7 @@ proxies:
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 485.01ms | 0️⃣1️⃣
+  - name: REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 179.38ms | 0️⃣1️⃣
     server: m2rel.siasepid.sbs
     port: 80
     type: vless
@@ -231,7 +213,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40V2rayNGmat"
     udp: true
-  - name: REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 250.09ms | 0️⃣2️⃣
+  - name: REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 173.02ms | 0️⃣2️⃣
     server: m2rel.siasepid.sbs
     port: 80
     type: vless
@@ -244,7 +226,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40V2rayNGmat"
     udp: true
-  - name: REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 136ms | 0️⃣3️⃣
+  - name: REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 189.06ms | 0️⃣3️⃣
     server: m2rel.siasepid.sbs
     port: 80
     type: vless
@@ -257,7 +239,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40V2rayNGmat"
     udp: true
-  - name: REALITY | @iP_CF | DE🇩🇪 | 85.90.244.250:443 | 125.93ms | 0️⃣1️⃣
+  - name: REALITY | @iP_CF | DE🇩🇪 | 85.90.244.250:443 | 160.38ms | 0️⃣1️⃣
     server: 85.90.244.250
     port: 443
     type: vless
@@ -270,7 +252,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40iP_CF%40iP_CF%40iP_CF%40iP_CF%40iP_CF%40iP_CF%40iP_CF%40iP_CF"
     udp: true
-  - name: REALITY | @UnlimitedDev | DE🇩🇪 | bia-to5.unlimiteddev.xyz:443 | 181.41ms | 0️⃣1️⃣
+  - name: REALITY | @UnlimitedDev | DE🇩🇪 | bia-to5.unlimiteddev.xyz:443 | 175.6ms | 0️⃣1️⃣
     server: bia-to5.unlimiteddev.xyz
     port: 443
     type: vless
@@ -281,7 +263,7 @@ proxies:
     skip-cert-verify: true
     servername: zula.ir
     udp: true
-  - name: REALITY | @vmessorg | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 179.68ms | 0️⃣1️⃣
+  - name: REALITY | @vmessorg | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 431.43ms | 0️⃣1️⃣
     server: join-bede1.vmessorg.fun
     port: 443
     type: vless
@@ -292,7 +274,7 @@ proxies:
     skip-cert-verify: true
     servername: zula.ir
     udp: true
-  - name: REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:10 | 166.77ms | 0️⃣2️⃣
+  - name: REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:10 | 179.95ms | 0️⃣2️⃣
     server: germani1-ping.network-go.info
     port: 10
     type: vless
@@ -302,7 +284,7 @@ proxies:
     skip-cert-verify: true
     servername: "%D8%AC%D9%88%DB%8C%D9%86+%D8%B4%D9%88++%40V2ray_vpn_ir"
     udp: true
-  - name: REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:20 | 135.86ms | 0️⃣3️⃣
+  - name: REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:20 | 274.13ms | 0️⃣3️⃣
     server: germani1-ping.network-go.info
     port: 20
     type: vless
@@ -315,7 +297,7 @@ proxies:
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: REALITY | @V2rayngninja | PL🇵🇱 | 185.161.251.214:443 | 129.48ms | 0️⃣1️⃣
+  - name: REALITY | @V2rayngninja | PL🇵🇱 | 185.161.251.214:443 | 154.36ms | 0️⃣1️⃣
     server: 185.161.251.214
     port: 443
     type: vless
@@ -325,18 +307,7 @@ proxies:
     skip-cert-verify: true
     servername: www.cloudflare.com
     udp: true
-  - name: REALITY | @V2rayngninja | TR🇹🇷 | 185.255.92.201:443 | 168.19ms | 0️⃣2️⃣
-    server: 185.255.92.201
-    port: 443
-    type: vless
-    uuid: 84d544b7-da56-420d-eec1-22df3835eb56
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: www.speedtest.net
-    udp: true
-  - name: REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 148.72ms | 0️⃣1️⃣
+  - name: REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 178.27ms | 0️⃣1️⃣
     server: 95.217.6.35
     port: 443
     type: vless
@@ -347,7 +318,7 @@ proxies:
     skip-cert-verify: true
     servername: www.npmjs.com
     udp: true
-  - name: REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 148.53ms | 0️⃣2️⃣
+  - name: REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 177.74ms | 0️⃣2️⃣
     server: 95.217.6.35
     port: 443
     type: vless
@@ -358,7 +329,7 @@ proxies:
     skip-cert-verify: true
     servername: www.wow-freakz.com
     udp: true
-  - name: REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 149.15ms | 0️⃣3️⃣
+  - name: REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 177.27ms | 0️⃣3️⃣
     server: 95.217.6.35
     port: 443
     type: vless
@@ -369,7 +340,7 @@ proxies:
     skip-cert-verify: true
     servername: mask-api.icloud.com
     udp: true
-  - name: REALITY | @Capital_NET | DE🇩🇪 | m2rel.siasepid.sbs:80 | 197.81ms | 0️⃣1️⃣
+  - name: REALITY | @Capital_NET | DE🇩🇪 | m2rel.siasepid.sbs:80 | 167.34ms | 0️⃣1️⃣
     server: m2rel.siasepid.sbs
     port: 80
     type: vless
@@ -382,7 +353,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40V2rayNGmat"
     udp: true
-  - name: REALITY | @Capital_NET | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 247.82ms | 0️⃣2️⃣
+  - name: REALITY | @Capital_NET | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 180.83ms | 0️⃣2️⃣
     server: join-bede1.vmessorg.fun
     port: 443
     type: vless
@@ -393,7 +364,7 @@ proxies:
     skip-cert-verify: true
     servername: zula.ir
     udp: true
-  - name: REALITY | @Capital_NET | FI🇫🇮 | 95.217.242.182:80 | 148.5ms | 0️⃣3️⃣
+  - name: REALITY | @Capital_NET | FI🇫🇮 | 95.217.242.182:80 | 177.27ms | 0️⃣3️⃣
     server: 95.217.242.182
     port: 80
     type: vless
@@ -404,7 +375,7 @@ proxies:
     skip-cert-verify: true
     servername: eset.com
     udp: true
-  - name: REALITY | @FreakConfig | FR🇫🇷 | 145.239.98.23:12090 | 113.32ms | 0️⃣3️⃣
+  - name: REALITY | @FreakConfig | FR🇫🇷 | 145.239.98.23:12090 | 150.29ms | 0️⃣3️⃣
     server: 145.239.98.23
     port: 12090
     type: vless
@@ -417,7 +388,7 @@ proxies:
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 143.77ms | 0️⃣1️⃣
+  - name: REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 181.74ms | 0️⃣1️⃣
     server: flyv2ray.ddns.net
     port: 443
     type: vless
@@ -430,7 +401,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40flyv2ray"
     udp: true
-  - name: REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 140.08ms | 0️⃣2️⃣
+  - name: REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 174.67ms | 0️⃣2️⃣
     server: flyv2ray.ddns.net
     port: 443
     type: vless
@@ -443,7 +414,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40flyv2ray"
     udp: true
-  - name: REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 147.39ms | 0️⃣3️⃣
+  - name: REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 169ms | 0️⃣3️⃣
     server: flyv2ray.ddns.net
     port: 443
     type: vless
@@ -460,41 +431,39 @@ proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - REALITY | @v2raycollectordonate | RELAY🚩 | discord.com:443 | 24.47ms | 0️⃣4️⃣
-      - REALITY | @v2raycollectordonate | RELAY🚩 | discord.com:443 | 21.36ms | 0️⃣5️⃣
-      - REALITY | @Helix_Servers | LV🇱🇻 | 85.159.228.56:443 | 147.42ms | 0️⃣1️⃣
-      - REALITY | @Helix_Servers | AT🇦🇹 | 185.106.94.255:443 | 171.49ms | 0️⃣2️⃣
-      - REALITY | @INIT1984 | CA🇨🇦 | 159.89.126.192:56668 | 42.51ms | 0️⃣1️⃣
-      - REALITY | @shopingv2ray | PL🇵🇱 | 185.161.251.214:443 | 127.21ms | 0️⃣1️⃣
-      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 176.59ms | 0️⃣1️⃣
-      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 171.89ms | 0️⃣2️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2052 | 194.1ms | 0️⃣1️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2086 | 191.04ms | 0️⃣2️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2095 | 189.84ms | 0️⃣3️⃣
-      - REALITY | @V2pedia | DE🇩🇪 | v2pedia.ddns.net:2087 | 141.04ms | 0️⃣1️⃣
-      - REALITY | @V2pedia | DE🇩🇪 | telchann1.v2pedia.xyz:443 | 301.64ms | 0️⃣3️⃣
-      - REALITY | @frev2ray | GE🇬🇪 | 77.91.70.77:2053 | 153.72ms | 0️⃣1️⃣
-      - REALITY | @frev2ray | DE🇩🇪 | 209.38.217.159:443 | 130.23ms | 0️⃣3️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 485.01ms | 0️⃣1️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 250.09ms | 0️⃣2️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 136ms | 0️⃣3️⃣
-      - REALITY | @iP_CF | DE🇩🇪 | 85.90.244.250:443 | 125.93ms | 0️⃣1️⃣
-      - REALITY | @UnlimitedDev | DE🇩🇪 | bia-to5.unlimiteddev.xyz:443 | 181.41ms | 0️⃣1️⃣
-      - REALITY | @vmessorg | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 179.68ms | 0️⃣1️⃣
-      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:10 | 166.77ms | 0️⃣2️⃣
-      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:20 | 135.86ms | 0️⃣3️⃣
-      - REALITY | @V2rayngninja | PL🇵🇱 | 185.161.251.214:443 | 129.48ms | 0️⃣1️⃣
-      - REALITY | @V2rayngninja | TR🇹🇷 | 185.255.92.201:443 | 168.19ms | 0️⃣2️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 148.72ms | 0️⃣1️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 148.53ms | 0️⃣2️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 149.15ms | 0️⃣3️⃣
-      - REALITY | @Capital_NET | DE🇩🇪 | m2rel.siasepid.sbs:80 | 197.81ms | 0️⃣1️⃣
-      - REALITY | @Capital_NET | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 247.82ms | 0️⃣2️⃣
-      - REALITY | @Capital_NET | FI🇫🇮 | 95.217.242.182:80 | 148.5ms | 0️⃣3️⃣
-      - REALITY | @FreakConfig | FR🇫🇷 | 145.239.98.23:12090 | 113.32ms | 0️⃣3️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 143.77ms | 0️⃣1️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 140.08ms | 0️⃣2️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 147.39ms | 0️⃣3️⃣
+      - REALITY | @v2raycollectordonate | DE🇩🇪 | freetell.globalnetvpn.site:22745 | 313.07ms | 0️⃣4️⃣
+      - REALITY | @v2raycollectordonate | DE🇩🇪 | 192.46.233.209:443 | 157.54ms | 0️⃣5️⃣
+      - REALITY | @Helix_Servers | LV🇱🇻 | 85.159.228.56:443 | 185.88ms | 0️⃣1️⃣
+      - REALITY | @Helix_Servers | AT🇦🇹 | 185.106.94.255:443 | 170.63ms | 0️⃣2️⃣
+      - REALITY | @INIT1984 | CA🇨🇦 | 159.89.126.192:56668 | 65.75ms | 0️⃣1️⃣
+      - REALITY | @shopingv2ray | PL🇵🇱 | 185.161.251.214:443 | 183.28ms | 0️⃣1️⃣
+      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 179.92ms | 0️⃣1️⃣
+      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 177.53ms | 0️⃣2️⃣
+      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2052 | 190.41ms | 0️⃣1️⃣
+      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2095 | 197.94ms | 0️⃣2️⃣
+      - REALITY | @V2pedia | DE🇩🇪 | v2pedia.ddns.net:2087 | 189.09ms | 0️⃣1️⃣
+      - REALITY | @V2pedia | DE🇩🇪 | telchann1.v2pedia.xyz:443 | 335.81ms | 0️⃣3️⃣
+      - REALITY | @frev2ray | GE🇬🇪 | 77.91.70.77:2053 | 180.02ms | 0️⃣1️⃣
+      - REALITY | @frev2ray | DE🇩🇪 | 209.38.217.159:443 | 158.86ms | 0️⃣3️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 179.38ms | 0️⃣1️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 173.02ms | 0️⃣2️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 189.06ms | 0️⃣3️⃣
+      - REALITY | @iP_CF | DE🇩🇪 | 85.90.244.250:443 | 160.38ms | 0️⃣1️⃣
+      - REALITY | @UnlimitedDev | DE🇩🇪 | bia-to5.unlimiteddev.xyz:443 | 175.6ms | 0️⃣1️⃣
+      - REALITY | @vmessorg | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 431.43ms | 0️⃣1️⃣
+      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:10 | 179.95ms | 0️⃣2️⃣
+      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:20 | 274.13ms | 0️⃣3️⃣
+      - REALITY | @V2rayngninja | PL🇵🇱 | 185.161.251.214:443 | 154.36ms | 0️⃣1️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 178.27ms | 0️⃣1️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 177.74ms | 0️⃣2️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 177.27ms | 0️⃣3️⃣
+      - REALITY | @Capital_NET | DE🇩🇪 | m2rel.siasepid.sbs:80 | 167.34ms | 0️⃣1️⃣
+      - REALITY | @Capital_NET | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 180.83ms | 0️⃣2️⃣
+      - REALITY | @Capital_NET | FI🇫🇮 | 95.217.242.182:80 | 177.27ms | 0️⃣3️⃣
+      - REALITY | @FreakConfig | FR🇫🇷 | 145.239.98.23:12090 | 150.29ms | 0️⃣3️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 181.74ms | 0️⃣1️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 174.67ms | 0️⃣2️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 169ms | 0️⃣3️⃣
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -505,121 +474,115 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - REALITY | @v2raycollectordonate | RELAY🚩 | discord.com:443 | 24.47ms | 0️⃣4️⃣
-      - REALITY | @v2raycollectordonate | RELAY🚩 | discord.com:443 | 21.36ms | 0️⃣5️⃣
-      - REALITY | @Helix_Servers | LV🇱🇻 | 85.159.228.56:443 | 147.42ms | 0️⃣1️⃣
-      - REALITY | @Helix_Servers | AT🇦🇹 | 185.106.94.255:443 | 171.49ms | 0️⃣2️⃣
-      - REALITY | @INIT1984 | CA🇨🇦 | 159.89.126.192:56668 | 42.51ms | 0️⃣1️⃣
-      - REALITY | @shopingv2ray | PL🇵🇱 | 185.161.251.214:443 | 127.21ms | 0️⃣1️⃣
-      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 176.59ms | 0️⃣1️⃣
-      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 171.89ms | 0️⃣2️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2052 | 194.1ms | 0️⃣1️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2086 | 191.04ms | 0️⃣2️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2095 | 189.84ms | 0️⃣3️⃣
-      - REALITY | @V2pedia | DE🇩🇪 | v2pedia.ddns.net:2087 | 141.04ms | 0️⃣1️⃣
-      - REALITY | @V2pedia | DE🇩🇪 | telchann1.v2pedia.xyz:443 | 301.64ms | 0️⃣3️⃣
-      - REALITY | @frev2ray | GE🇬🇪 | 77.91.70.77:2053 | 153.72ms | 0️⃣1️⃣
-      - REALITY | @frev2ray | DE🇩🇪 | 209.38.217.159:443 | 130.23ms | 0️⃣3️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 485.01ms | 0️⃣1️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 250.09ms | 0️⃣2️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 136ms | 0️⃣3️⃣
-      - REALITY | @iP_CF | DE🇩🇪 | 85.90.244.250:443 | 125.93ms | 0️⃣1️⃣
-      - REALITY | @UnlimitedDev | DE🇩🇪 | bia-to5.unlimiteddev.xyz:443 | 181.41ms | 0️⃣1️⃣
-      - REALITY | @vmessorg | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 179.68ms | 0️⃣1️⃣
-      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:10 | 166.77ms | 0️⃣2️⃣
-      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:20 | 135.86ms | 0️⃣3️⃣
-      - REALITY | @V2rayngninja | PL🇵🇱 | 185.161.251.214:443 | 129.48ms | 0️⃣1️⃣
-      - REALITY | @V2rayngninja | TR🇹🇷 | 185.255.92.201:443 | 168.19ms | 0️⃣2️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 148.72ms | 0️⃣1️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 148.53ms | 0️⃣2️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 149.15ms | 0️⃣3️⃣
-      - REALITY | @Capital_NET | DE🇩🇪 | m2rel.siasepid.sbs:80 | 197.81ms | 0️⃣1️⃣
-      - REALITY | @Capital_NET | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 247.82ms | 0️⃣2️⃣
-      - REALITY | @Capital_NET | FI🇫🇮 | 95.217.242.182:80 | 148.5ms | 0️⃣3️⃣
-      - REALITY | @FreakConfig | FR🇫🇷 | 145.239.98.23:12090 | 113.32ms | 0️⃣3️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 143.77ms | 0️⃣1️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 140.08ms | 0️⃣2️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 147.39ms | 0️⃣3️⃣
+      - REALITY | @v2raycollectordonate | DE🇩🇪 | freetell.globalnetvpn.site:22745 | 313.07ms | 0️⃣4️⃣
+      - REALITY | @v2raycollectordonate | DE🇩🇪 | 192.46.233.209:443 | 157.54ms | 0️⃣5️⃣
+      - REALITY | @Helix_Servers | LV🇱🇻 | 85.159.228.56:443 | 185.88ms | 0️⃣1️⃣
+      - REALITY | @Helix_Servers | AT🇦🇹 | 185.106.94.255:443 | 170.63ms | 0️⃣2️⃣
+      - REALITY | @INIT1984 | CA🇨🇦 | 159.89.126.192:56668 | 65.75ms | 0️⃣1️⃣
+      - REALITY | @shopingv2ray | PL🇵🇱 | 185.161.251.214:443 | 183.28ms | 0️⃣1️⃣
+      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 179.92ms | 0️⃣1️⃣
+      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 177.53ms | 0️⃣2️⃣
+      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2052 | 190.41ms | 0️⃣1️⃣
+      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2095 | 197.94ms | 0️⃣2️⃣
+      - REALITY | @V2pedia | DE🇩🇪 | v2pedia.ddns.net:2087 | 189.09ms | 0️⃣1️⃣
+      - REALITY | @V2pedia | DE🇩🇪 | telchann1.v2pedia.xyz:443 | 335.81ms | 0️⃣3️⃣
+      - REALITY | @frev2ray | GE🇬🇪 | 77.91.70.77:2053 | 180.02ms | 0️⃣1️⃣
+      - REALITY | @frev2ray | DE🇩🇪 | 209.38.217.159:443 | 158.86ms | 0️⃣3️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 179.38ms | 0️⃣1️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 173.02ms | 0️⃣2️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 189.06ms | 0️⃣3️⃣
+      - REALITY | @iP_CF | DE🇩🇪 | 85.90.244.250:443 | 160.38ms | 0️⃣1️⃣
+      - REALITY | @UnlimitedDev | DE🇩🇪 | bia-to5.unlimiteddev.xyz:443 | 175.6ms | 0️⃣1️⃣
+      - REALITY | @vmessorg | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 431.43ms | 0️⃣1️⃣
+      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:10 | 179.95ms | 0️⃣2️⃣
+      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:20 | 274.13ms | 0️⃣3️⃣
+      - REALITY | @V2rayngninja | PL🇵🇱 | 185.161.251.214:443 | 154.36ms | 0️⃣1️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 178.27ms | 0️⃣1️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 177.74ms | 0️⃣2️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 177.27ms | 0️⃣3️⃣
+      - REALITY | @Capital_NET | DE🇩🇪 | m2rel.siasepid.sbs:80 | 167.34ms | 0️⃣1️⃣
+      - REALITY | @Capital_NET | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 180.83ms | 0️⃣2️⃣
+      - REALITY | @Capital_NET | FI🇫🇮 | 95.217.242.182:80 | 177.27ms | 0️⃣3️⃣
+      - REALITY | @FreakConfig | FR🇫🇷 | 145.239.98.23:12090 | 150.29ms | 0️⃣3️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 181.74ms | 0️⃣1️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 174.67ms | 0️⃣2️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 169ms | 0️⃣3️⃣
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - REALITY | @v2raycollectordonate | RELAY🚩 | discord.com:443 | 24.47ms | 0️⃣4️⃣
-      - REALITY | @v2raycollectordonate | RELAY🚩 | discord.com:443 | 21.36ms | 0️⃣5️⃣
-      - REALITY | @Helix_Servers | LV🇱🇻 | 85.159.228.56:443 | 147.42ms | 0️⃣1️⃣
-      - REALITY | @Helix_Servers | AT🇦🇹 | 185.106.94.255:443 | 171.49ms | 0️⃣2️⃣
-      - REALITY | @INIT1984 | CA🇨🇦 | 159.89.126.192:56668 | 42.51ms | 0️⃣1️⃣
-      - REALITY | @shopingv2ray | PL🇵🇱 | 185.161.251.214:443 | 127.21ms | 0️⃣1️⃣
-      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 176.59ms | 0️⃣1️⃣
-      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 171.89ms | 0️⃣2️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2052 | 194.1ms | 0️⃣1️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2086 | 191.04ms | 0️⃣2️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2095 | 189.84ms | 0️⃣3️⃣
-      - REALITY | @V2pedia | DE🇩🇪 | v2pedia.ddns.net:2087 | 141.04ms | 0️⃣1️⃣
-      - REALITY | @V2pedia | DE🇩🇪 | telchann1.v2pedia.xyz:443 | 301.64ms | 0️⃣3️⃣
-      - REALITY | @frev2ray | GE🇬🇪 | 77.91.70.77:2053 | 153.72ms | 0️⃣1️⃣
-      - REALITY | @frev2ray | DE🇩🇪 | 209.38.217.159:443 | 130.23ms | 0️⃣3️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 485.01ms | 0️⃣1️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 250.09ms | 0️⃣2️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 136ms | 0️⃣3️⃣
-      - REALITY | @iP_CF | DE🇩🇪 | 85.90.244.250:443 | 125.93ms | 0️⃣1️⃣
-      - REALITY | @UnlimitedDev | DE🇩🇪 | bia-to5.unlimiteddev.xyz:443 | 181.41ms | 0️⃣1️⃣
-      - REALITY | @vmessorg | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 179.68ms | 0️⃣1️⃣
-      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:10 | 166.77ms | 0️⃣2️⃣
-      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:20 | 135.86ms | 0️⃣3️⃣
-      - REALITY | @V2rayngninja | PL🇵🇱 | 185.161.251.214:443 | 129.48ms | 0️⃣1️⃣
-      - REALITY | @V2rayngninja | TR🇹🇷 | 185.255.92.201:443 | 168.19ms | 0️⃣2️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 148.72ms | 0️⃣1️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 148.53ms | 0️⃣2️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 149.15ms | 0️⃣3️⃣
-      - REALITY | @Capital_NET | DE🇩🇪 | m2rel.siasepid.sbs:80 | 197.81ms | 0️⃣1️⃣
-      - REALITY | @Capital_NET | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 247.82ms | 0️⃣2️⃣
-      - REALITY | @Capital_NET | FI🇫🇮 | 95.217.242.182:80 | 148.5ms | 0️⃣3️⃣
-      - REALITY | @FreakConfig | FR🇫🇷 | 145.239.98.23:12090 | 113.32ms | 0️⃣3️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 143.77ms | 0️⃣1️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 140.08ms | 0️⃣2️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 147.39ms | 0️⃣3️⃣
+      - REALITY | @v2raycollectordonate | DE🇩🇪 | freetell.globalnetvpn.site:22745 | 313.07ms | 0️⃣4️⃣
+      - REALITY | @v2raycollectordonate | DE🇩🇪 | 192.46.233.209:443 | 157.54ms | 0️⃣5️⃣
+      - REALITY | @Helix_Servers | LV🇱🇻 | 85.159.228.56:443 | 185.88ms | 0️⃣1️⃣
+      - REALITY | @Helix_Servers | AT🇦🇹 | 185.106.94.255:443 | 170.63ms | 0️⃣2️⃣
+      - REALITY | @INIT1984 | CA🇨🇦 | 159.89.126.192:56668 | 65.75ms | 0️⃣1️⃣
+      - REALITY | @shopingv2ray | PL🇵🇱 | 185.161.251.214:443 | 183.28ms | 0️⃣1️⃣
+      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 179.92ms | 0️⃣1️⃣
+      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 177.53ms | 0️⃣2️⃣
+      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2052 | 190.41ms | 0️⃣1️⃣
+      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2095 | 197.94ms | 0️⃣2️⃣
+      - REALITY | @V2pedia | DE🇩🇪 | v2pedia.ddns.net:2087 | 189.09ms | 0️⃣1️⃣
+      - REALITY | @V2pedia | DE🇩🇪 | telchann1.v2pedia.xyz:443 | 335.81ms | 0️⃣3️⃣
+      - REALITY | @frev2ray | GE🇬🇪 | 77.91.70.77:2053 | 180.02ms | 0️⃣1️⃣
+      - REALITY | @frev2ray | DE🇩🇪 | 209.38.217.159:443 | 158.86ms | 0️⃣3️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 179.38ms | 0️⃣1️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 173.02ms | 0️⃣2️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 189.06ms | 0️⃣3️⃣
+      - REALITY | @iP_CF | DE🇩🇪 | 85.90.244.250:443 | 160.38ms | 0️⃣1️⃣
+      - REALITY | @UnlimitedDev | DE🇩🇪 | bia-to5.unlimiteddev.xyz:443 | 175.6ms | 0️⃣1️⃣
+      - REALITY | @vmessorg | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 431.43ms | 0️⃣1️⃣
+      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:10 | 179.95ms | 0️⃣2️⃣
+      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:20 | 274.13ms | 0️⃣3️⃣
+      - REALITY | @V2rayngninja | PL🇵🇱 | 185.161.251.214:443 | 154.36ms | 0️⃣1️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 178.27ms | 0️⃣1️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 177.74ms | 0️⃣2️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 177.27ms | 0️⃣3️⃣
+      - REALITY | @Capital_NET | DE🇩🇪 | m2rel.siasepid.sbs:80 | 167.34ms | 0️⃣1️⃣
+      - REALITY | @Capital_NET | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 180.83ms | 0️⃣2️⃣
+      - REALITY | @Capital_NET | FI🇫🇮 | 95.217.242.182:80 | 177.27ms | 0️⃣3️⃣
+      - REALITY | @FreakConfig | FR🇫🇷 | 145.239.98.23:12090 | 150.29ms | 0️⃣3️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 181.74ms | 0️⃣1️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 174.67ms | 0️⃣2️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 169ms | 0️⃣3️⃣
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - REALITY | @v2raycollectordonate | RELAY🚩 | discord.com:443 | 24.47ms | 0️⃣4️⃣
-      - REALITY | @v2raycollectordonate | RELAY🚩 | discord.com:443 | 21.36ms | 0️⃣5️⃣
-      - REALITY | @Helix_Servers | LV🇱🇻 | 85.159.228.56:443 | 147.42ms | 0️⃣1️⃣
-      - REALITY | @Helix_Servers | AT🇦🇹 | 185.106.94.255:443 | 171.49ms | 0️⃣2️⃣
-      - REALITY | @INIT1984 | CA🇨🇦 | 159.89.126.192:56668 | 42.51ms | 0️⃣1️⃣
-      - REALITY | @shopingv2ray | PL🇵🇱 | 185.161.251.214:443 | 127.21ms | 0️⃣1️⃣
-      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 176.59ms | 0️⃣1️⃣
-      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 171.89ms | 0️⃣2️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2052 | 194.1ms | 0️⃣1️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2086 | 191.04ms | 0️⃣2️⃣
-      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2095 | 189.84ms | 0️⃣3️⃣
-      - REALITY | @V2pedia | DE🇩🇪 | v2pedia.ddns.net:2087 | 141.04ms | 0️⃣1️⃣
-      - REALITY | @V2pedia | DE🇩🇪 | telchann1.v2pedia.xyz:443 | 301.64ms | 0️⃣3️⃣
-      - REALITY | @frev2ray | GE🇬🇪 | 77.91.70.77:2053 | 153.72ms | 0️⃣1️⃣
-      - REALITY | @frev2ray | DE🇩🇪 | 209.38.217.159:443 | 130.23ms | 0️⃣3️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 485.01ms | 0️⃣1️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 250.09ms | 0️⃣2️⃣
-      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 136ms | 0️⃣3️⃣
-      - REALITY | @iP_CF | DE🇩🇪 | 85.90.244.250:443 | 125.93ms | 0️⃣1️⃣
-      - REALITY | @UnlimitedDev | DE🇩🇪 | bia-to5.unlimiteddev.xyz:443 | 181.41ms | 0️⃣1️⃣
-      - REALITY | @vmessorg | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 179.68ms | 0️⃣1️⃣
-      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:10 | 166.77ms | 0️⃣2️⃣
-      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:20 | 135.86ms | 0️⃣3️⃣
-      - REALITY | @V2rayngninja | PL🇵🇱 | 185.161.251.214:443 | 129.48ms | 0️⃣1️⃣
-      - REALITY | @V2rayngninja | TR🇹🇷 | 185.255.92.201:443 | 168.19ms | 0️⃣2️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 148.72ms | 0️⃣1️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 148.53ms | 0️⃣2️⃣
-      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 149.15ms | 0️⃣3️⃣
-      - REALITY | @Capital_NET | DE🇩🇪 | m2rel.siasepid.sbs:80 | 197.81ms | 0️⃣1️⃣
-      - REALITY | @Capital_NET | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 247.82ms | 0️⃣2️⃣
-      - REALITY | @Capital_NET | FI🇫🇮 | 95.217.242.182:80 | 148.5ms | 0️⃣3️⃣
-      - REALITY | @FreakConfig | FR🇫🇷 | 145.239.98.23:12090 | 113.32ms | 0️⃣3️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 143.77ms | 0️⃣1️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 140.08ms | 0️⃣2️⃣
-      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 147.39ms | 0️⃣3️⃣
+      - REALITY | @v2raycollectordonate | DE🇩🇪 | freetell.globalnetvpn.site:22745 | 313.07ms | 0️⃣4️⃣
+      - REALITY | @v2raycollectordonate | DE🇩🇪 | 192.46.233.209:443 | 157.54ms | 0️⃣5️⃣
+      - REALITY | @Helix_Servers | LV🇱🇻 | 85.159.228.56:443 | 185.88ms | 0️⃣1️⃣
+      - REALITY | @Helix_Servers | AT🇦🇹 | 185.106.94.255:443 | 170.63ms | 0️⃣2️⃣
+      - REALITY | @INIT1984 | CA🇨🇦 | 159.89.126.192:56668 | 65.75ms | 0️⃣1️⃣
+      - REALITY | @shopingv2ray | PL🇵🇱 | 185.161.251.214:443 | 183.28ms | 0️⃣1️⃣
+      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 179.92ms | 0️⃣1️⃣
+      - REALITY | @XsV2ray | DE🇩🇪 | XsV2ray.xalixv2ray.space:443 | 177.53ms | 0️⃣2️⃣
+      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2052 | 190.41ms | 0️⃣1️⃣
+      - REALITY | @reality_daily | SE🇸🇪 | 77.91.84.45:2095 | 197.94ms | 0️⃣2️⃣
+      - REALITY | @V2pedia | DE🇩🇪 | v2pedia.ddns.net:2087 | 189.09ms | 0️⃣1️⃣
+      - REALITY | @V2pedia | DE🇩🇪 | telchann1.v2pedia.xyz:443 | 335.81ms | 0️⃣3️⃣
+      - REALITY | @frev2ray | GE🇬🇪 | 77.91.70.77:2053 | 180.02ms | 0️⃣1️⃣
+      - REALITY | @frev2ray | DE🇩🇪 | 209.38.217.159:443 | 158.86ms | 0️⃣3️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 179.38ms | 0️⃣1️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 173.02ms | 0️⃣2️⃣
+      - REALITY | @V2rayNGmat | DE🇩🇪 | m2rel.siasepid.sbs:80 | 189.06ms | 0️⃣3️⃣
+      - REALITY | @iP_CF | DE🇩🇪 | 85.90.244.250:443 | 160.38ms | 0️⃣1️⃣
+      - REALITY | @UnlimitedDev | DE🇩🇪 | bia-to5.unlimiteddev.xyz:443 | 175.6ms | 0️⃣1️⃣
+      - REALITY | @vmessorg | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 431.43ms | 0️⃣1️⃣
+      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:10 | 179.95ms | 0️⃣2️⃣
+      - REALITY | @v2ray_vpn_ir | DE🇩🇪 | germani1-ping.network-go.info:20 | 274.13ms | 0️⃣3️⃣
+      - REALITY | @V2rayngninja | PL🇵🇱 | 185.161.251.214:443 | 154.36ms | 0️⃣1️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 178.27ms | 0️⃣1️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 177.74ms | 0️⃣2️⃣
+      - REALITY | @bright_vpn | FI🇫🇮 | 95.217.6.35:443 | 177.27ms | 0️⃣3️⃣
+      - REALITY | @Capital_NET | DE🇩🇪 | m2rel.siasepid.sbs:80 | 167.34ms | 0️⃣1️⃣
+      - REALITY | @Capital_NET | DE🇩🇪 | join-bede1.vmessorg.fun:443 | 180.83ms | 0️⃣2️⃣
+      - REALITY | @Capital_NET | FI🇫🇮 | 95.217.242.182:80 | 177.27ms | 0️⃣3️⃣
+      - REALITY | @FreakConfig | FR🇫🇷 | 145.239.98.23:12090 | 150.29ms | 0️⃣3️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 181.74ms | 0️⃣1️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 174.67ms | 0️⃣2️⃣
+      - REALITY | @flyv2ray | DE🇩🇪 | flyv2ray.ddns.net:443 | 169ms | 0️⃣3️⃣
 rules:
   - MATCH,MANUAL
