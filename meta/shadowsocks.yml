@@ -32,70 +32,63 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: "@iP_CF | NL🇳🇱 | 104.45.5.241:57445 | 105.07ms | 0️⃣1️⃣"
+  - name: "@iP_CF | NL🇳🇱 | 104.45.5.241:57445 | 87.35ms | 0️⃣1️⃣"
     server: 104.45.5.241
     port: 57445
     type: ss
     cipher: chacha20-ietf-poly1305
     password: pmfx20XNLRTDopMNfBhK0I
     udp: true
-  - name: "@iP_CF | NL🇳🇱 | 109.201.152.181:443 | 114.45ms | 0️⃣2️⃣"
+  - name: "@iP_CF | NL🇳🇱 | 109.201.152.181:443 | 85.79ms | 0️⃣2️⃣"
     server: 109.201.152.181
     port: 443
     type: ss
     cipher: aes-128-cfb
     password: shadowsocks
     udp: true
-  - name: "@free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 117.61ms | 0️⃣1️⃣"
+  - name: "@free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 92.03ms | 0️⃣1️⃣"
     server: 212.102.53.198
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: "@free4allVPN | GB🇬🇧 | 212.102.53.80:443 | 117.64ms | 0️⃣2️⃣"
+  - name: "@free4allVPN | GB🇬🇧 | 212.102.53.80:443 | 92.18ms | 0️⃣2️⃣"
     server: 212.102.53.80
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: "@proxyymeliii | SK🇸🇰 | 185.48.248.126:444 | 167.55ms | 0️⃣1️⃣"
-    server: 185.48.248.126
-    port: 444
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: Onsheypy
-    udp: true
-  - name: "@proxyymeliii | NL🇳🇱 | 52.236.182.243:8596 | 105.07ms | 0️⃣2️⃣"
+  - name: "@proxyymeliii | NL🇳🇱 | 52.236.182.243:8596 | 87.38ms | 0️⃣1️⃣"
     server: 52.236.182.243
     port: 8596
     type: ss
     cipher: chacha20-ietf-poly1305
     password: OJqnAh2NWgsawyzEp7wj8F
     udp: true
-  - name: "@vmess_vless_v2rayng | US🇺🇸 | 816.outline-vpn.cloud:9098 | 71.43ms | 0️⃣1️⃣"
+  - name: "@vmess_vless_v2rayng | US🇺🇸 | 816.outline-vpn.cloud:9098 | 103.21ms | 0️⃣1️⃣"
     server: 816.outline-vpn.cloud
     port: 9098
     type: ss
     cipher: chacha20-ietf-poly1305
     password: ksjfuw!sop#
     udp: true
-  - name: "@vmess_vless_v2rayng | US🇺🇸 | 727.outline-vpn.cloud:443 | 97.19ms | 0️⃣2️⃣"
+  - name: "@vmess_vless_v2rayng | US🇺🇸 | 727.outline-vpn.cloud:443 | 31.85ms | 0️⃣2️⃣"
     server: 727.outline-vpn.cloud
     port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
     password: j4wkIrreHEdC
     udp: true
-  - name: "@OutlineVpnOfficial | CA🇨🇦 | ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:800 | 79.77ms | 0️⃣1️⃣"
+  - name: "@OutlineVpnOfficial | CA🇨🇦 | ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:800 | 43.99ms | 0️⃣1️⃣"
     server: ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
     port: 800
     type: ss
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
     udp: true
-  - name: "@OutlineVpnOfficial | FR🇫🇷 | ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 135.28ms | 0️⃣2️⃣"
+  - name: "@OutlineVpnOfficial | FR🇫🇷 | ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 195.96ms | 0️⃣2️⃣"
     server: ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
     port: 6379
     type: ss
@@ -106,16 +99,15 @@ proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - "@iP_CF | NL🇳🇱 | 104.45.5.241:57445 | 105.07ms | 0️⃣1️⃣"
-      - "@iP_CF | NL🇳🇱 | 109.201.152.181:443 | 114.45ms | 0️⃣2️⃣"
-      - "@free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 117.61ms | 0️⃣1️⃣"
-      - "@free4allVPN | GB🇬🇧 | 212.102.53.80:443 | 117.64ms | 0️⃣2️⃣"
-      - "@proxyymeliii | SK🇸🇰 | 185.48.248.126:444 | 167.55ms | 0️⃣1️⃣"
-      - "@proxyymeliii | NL🇳🇱 | 52.236.182.243:8596 | 105.07ms | 0️⃣2️⃣"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 816.outline-vpn.cloud:9098 | 71.43ms | 0️⃣1️⃣"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 727.outline-vpn.cloud:443 | 97.19ms | 0️⃣2️⃣"
-      - "@OutlineVpnOfficial | CA🇨🇦 | ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:800 | 79.77ms | 0️⃣1️⃣"
-      - "@OutlineVpnOfficial | FR🇫🇷 | ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 135.28ms | 0️⃣2️⃣"
+      - "@iP_CF | NL🇳🇱 | 104.45.5.241:57445 | 87.35ms | 0️⃣1️⃣"
+      - "@iP_CF | NL🇳🇱 | 109.201.152.181:443 | 85.79ms | 0️⃣2️⃣"
+      - "@free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 92.03ms | 0️⃣1️⃣"
+      - "@free4allVPN | GB🇬🇧 | 212.102.53.80:443 | 92.18ms | 0️⃣2️⃣"
+      - "@proxyymeliii | NL🇳🇱 | 52.236.182.243:8596 | 87.38ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 816.outline-vpn.cloud:9098 | 103.21ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 727.outline-vpn.cloud:443 | 31.85ms | 0️⃣2️⃣"
+      - "@OutlineVpnOfficial | CA🇨🇦 | ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:800 | 43.99ms | 0️⃣1️⃣"
+      - "@OutlineVpnOfficial | FR🇫🇷 | ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 195.96ms | 0️⃣2️⃣"
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -126,46 +118,43 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@iP_CF | NL🇳🇱 | 104.45.5.241:57445 | 105.07ms | 0️⃣1️⃣"
-      - "@iP_CF | NL🇳🇱 | 109.201.152.181:443 | 114.45ms | 0️⃣2️⃣"
-      - "@free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 117.61ms | 0️⃣1️⃣"
-      - "@free4allVPN | GB🇬🇧 | 212.102.53.80:443 | 117.64ms | 0️⃣2️⃣"
-      - "@proxyymeliii | SK🇸🇰 | 185.48.248.126:444 | 167.55ms | 0️⃣1️⃣"
-      - "@proxyymeliii | NL🇳🇱 | 52.236.182.243:8596 | 105.07ms | 0️⃣2️⃣"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 816.outline-vpn.cloud:9098 | 71.43ms | 0️⃣1️⃣"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 727.outline-vpn.cloud:443 | 97.19ms | 0️⃣2️⃣"
-      - "@OutlineVpnOfficial | CA🇨🇦 | ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:800 | 79.77ms | 0️⃣1️⃣"
-      - "@OutlineVpnOfficial | FR🇫🇷 | ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 135.28ms | 0️⃣2️⃣"
+      - "@iP_CF | NL🇳🇱 | 104.45.5.241:57445 | 87.35ms | 0️⃣1️⃣"
+      - "@iP_CF | NL🇳🇱 | 109.201.152.181:443 | 85.79ms | 0️⃣2️⃣"
+      - "@free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 92.03ms | 0️⃣1️⃣"
+      - "@free4allVPN | GB🇬🇧 | 212.102.53.80:443 | 92.18ms | 0️⃣2️⃣"
+      - "@proxyymeliii | NL🇳🇱 | 52.236.182.243:8596 | 87.38ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 816.outline-vpn.cloud:9098 | 103.21ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 727.outline-vpn.cloud:443 | 31.85ms | 0️⃣2️⃣"
+      - "@OutlineVpnOfficial | CA🇨🇦 | ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:800 | 43.99ms | 0️⃣1️⃣"
+      - "@OutlineVpnOfficial | FR🇫🇷 | ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 195.96ms | 0️⃣2️⃣"
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - "@iP_CF | NL🇳🇱 | 104.45.5.241:57445 | 105.07ms | 0️⃣1️⃣"
-      - "@iP_CF | NL🇳🇱 | 109.201.152.181:443 | 114.45ms | 0️⃣2️⃣"
-      - "@free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 117.61ms | 0️⃣1️⃣"
-      - "@free4allVPN | GB🇬🇧 | 212.102.53.80:443 | 117.64ms | 0️⃣2️⃣"
-      - "@proxyymeliii | SK🇸🇰 | 185.48.248.126:444 | 167.55ms | 0️⃣1️⃣"
-      - "@proxyymeliii | NL🇳🇱 | 52.236.182.243:8596 | 105.07ms | 0️⃣2️⃣"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 816.outline-vpn.cloud:9098 | 71.43ms | 0️⃣1️⃣"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 727.outline-vpn.cloud:443 | 97.19ms | 0️⃣2️⃣"
-      - "@OutlineVpnOfficial | CA🇨🇦 | ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:800 | 79.77ms | 0️⃣1️⃣"
-      - "@OutlineVpnOfficial | FR🇫🇷 | ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 135.28ms | 0️⃣2️⃣"
+      - "@iP_CF | NL🇳🇱 | 104.45.5.241:57445 | 87.35ms | 0️⃣1️⃣"
+      - "@iP_CF | NL🇳🇱 | 109.201.152.181:443 | 85.79ms | 0️⃣2️⃣"
+      - "@free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 92.03ms | 0️⃣1️⃣"
+      - "@free4allVPN | GB🇬🇧 | 212.102.53.80:443 | 92.18ms | 0️⃣2️⃣"
+      - "@proxyymeliii | NL🇳🇱 | 52.236.182.243:8596 | 87.38ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 816.outline-vpn.cloud:9098 | 103.21ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 727.outline-vpn.cloud:443 | 31.85ms | 0️⃣2️⃣"
+      - "@OutlineVpnOfficial | CA🇨🇦 | ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:800 | 43.99ms | 0️⃣1️⃣"
+      - "@OutlineVpnOfficial | FR🇫🇷 | ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 195.96ms | 0️⃣2️⃣"
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@iP_CF | NL🇳🇱 | 104.45.5.241:57445 | 105.07ms | 0️⃣1️⃣"
-      - "@iP_CF | NL🇳🇱 | 109.201.152.181:443 | 114.45ms | 0️⃣2️⃣"
-      - "@free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 117.61ms | 0️⃣1️⃣"
-      - "@free4allVPN | GB🇬🇧 | 212.102.53.80:443 | 117.64ms | 0️⃣2️⃣"
-      - "@proxyymeliii | SK🇸🇰 | 185.48.248.126:444 | 167.55ms | 0️⃣1️⃣"
-      - "@proxyymeliii | NL🇳🇱 | 52.236.182.243:8596 | 105.07ms | 0️⃣2️⃣"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 816.outline-vpn.cloud:9098 | 71.43ms | 0️⃣1️⃣"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 727.outline-vpn.cloud:443 | 97.19ms | 0️⃣2️⃣"
-      - "@OutlineVpnOfficial | CA🇨🇦 | ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:800 | 79.77ms | 0️⃣1️⃣"
-      - "@OutlineVpnOfficial | FR🇫🇷 | ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 135.28ms | 0️⃣2️⃣"
+      - "@iP_CF | NL🇳🇱 | 104.45.5.241:57445 | 87.35ms | 0️⃣1️⃣"
+      - "@iP_CF | NL🇳🇱 | 109.201.152.181:443 | 85.79ms | 0️⃣2️⃣"
+      - "@free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 92.03ms | 0️⃣1️⃣"
+      - "@free4allVPN | GB🇬🇧 | 212.102.53.80:443 | 92.18ms | 0️⃣2️⃣"
+      - "@proxyymeliii | NL🇳🇱 | 52.236.182.243:8596 | 87.38ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 816.outline-vpn.cloud:9098 | 103.21ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 727.outline-vpn.cloud:443 | 31.85ms | 0️⃣2️⃣"
+      - "@OutlineVpnOfficial | CA🇨🇦 | ak1839.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:800 | 43.99ms | 0️⃣1️⃣"
+      - "@OutlineVpnOfficial | FR🇫🇷 | ak1840.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 195.96ms | 0️⃣2️⃣"
 rules:
   - MATCH,MANUAL
